@@ -1,0 +1,25 @@
+[package]
+name = "lang-api"
+version = "0.1.0"
+description = ""
+repository = "https://github.com/Jozefpodlecki/lang-api"
+edition = "2024"
+rust-version = "1.91.0"
+
+[dependencies]
+flexi_logger = { version = "0.31.7", default-features = false }
+anyhow = "1.0.100"
+log = "0.4.18"
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1.48.0", features = ["rt", "macros", "signal"] }
+chrono = { version = "0.4.42", features = ["serde"] }
+serde_json = { version = "1.0", features = [] }
+strum = "0.27.2"
+strum_macros = "0.27.2"
+async-trait = "0.1.89"
+axum = "0.8.7"
+humantime = "2.3.0"
+utoipa = { version = "5.4.0", features = ["axum_extras"] }
+utoipa-axum = "0.2.0"
+utoipa-swagger-ui = { version = "9.0.2", features = ["axum"] }
+mongodb = "3.4.1"
