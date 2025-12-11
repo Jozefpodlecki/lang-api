@@ -9,6 +9,8 @@ use utoipa_axum::router::OpenApiRouter;
 use utoipa_swagger_ui::SwaggerUi;
 
 use crate::models::Pronouns;
+use crate::routes::features::get_features;
+use crate::routes::pronouns::get_personal_pronouns;
 use crate::{routes::*, state::AppState};
 
 #[derive(OpenApi)]
@@ -22,18 +24,12 @@ use crate::{routes::*, state::AppState};
 )]
 struct ApiDoc;
 
-pub async fn get_personal_pronouns(State(state): State<AppState>, lang: Path<String>) -> Json<Option<Pronouns>> {
-    
-    let document = state.pronouns.get(&lang).await.unwrap();
-    
-    Json(document)
-}
-
 pub fn setup_routing(state: AppState) -> Router {
 
     let sub_router: OpenApiRouter = OpenApiRouter::new()
         .fallback(handler_404)
-        .route("/", get(get_personal_pronouns))
+        .route("/{lang}", get(get_features))
+        .route("/{lang}/personal-pronouns", get(get_personal_pronouns))
         .with_state(state);
 
     let (router, api) = OpenApiRouter::with_openapi(ApiDoc::openapi())

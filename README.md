@@ -8,3 +8,11 @@ docker run --name mongodb -p 27017:27017 -d mongodb/mongodb-community-server:lat
 ```sh
 cargo run
 ```
+
+# Swagger
+
+`http://localhost:3000/swagger-ui/`
+
+```
+http://localhost:3000/api/v1/{lang}/personal-pronouns
+```

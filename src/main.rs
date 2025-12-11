@@ -61,6 +61,7 @@ async fn run() -> Result<()> {
 
     let addr = option_env!("ADDR").unwrap_or_else(|| "0.0.0.0:3000");
     let listener = TcpListener::bind(addr).await?;
+    debug!("Addr: {}", addr);
 
     axum::serve(listener, router.into_make_service())
         .with_graceful_shutdown(shutdown_signal())
