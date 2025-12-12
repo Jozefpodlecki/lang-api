@@ -12,15 +12,6 @@ pub fn get_target_dir() -> PathBuf {
         .to_path_buf()
 }
 
-fn get_entries(dir: &str) -> Vec<DirEntry> {
-    let mut entries: Vec<_> = read_dir(dir)
-        .unwrap()
-        .filter_map(|e| e.ok())
-        .collect();
-
-    entries
-}
-
 fn copy_dir_all(src: impl AsRef<Path>, dst: impl AsRef<Path>) -> io::Result<()> {
     fs::create_dir_all(&dst)?;
     for entry in fs::read_dir(src)? {
@@ -28,6 +19,7 @@ fn copy_dir_all(src: impl AsRef<Path>, dst: impl AsRef<Path>) -> io::Result<()> 
         let ty = entry.file_type()?;
         if ty.is_dir() {
             copy_dir_all(entry.path(), dst.as_ref().join(entry.file_name()))?;
+            println!("cargo:rerun-if-changed={}", entry.path().display());
         } else {
             fs::copy(entry.path(), dst.as_ref().join(entry.file_name()))?;
         }

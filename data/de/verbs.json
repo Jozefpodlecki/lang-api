@@ -1,0 +1,332 @@
+[
+  {
+    "language": "de",
+    "lemma": "sein",
+    "transitivity": null,
+    "auxiliary": "yes",
+    "irregular": true,
+    "gloss": "be",
+    "tags": ["copula", "auxiliary"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "bin",
+          "2s": "bist",
+          "3s": "ist",
+          "1p": "sind",
+          "2p": "seid",
+          "3p": "sind"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "war",
+          "2s": "warst",
+          "3s": "war",
+          "1p": "waren",
+          "2p": "wart",
+          "3p": "waren"
+        }
+      }
+    }
+  },
+  {
+    "language": "de",
+    "lemma": "haben",
+    "transitivity": "transitive",
+    "auxiliary": "yes",
+    "irregular": true,
+    "gloss": "have",
+    "tags": ["auxiliary", "main verb"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "habe",
+          "2s": "hast",
+          "3s": "hat",
+          "1p": "haben",
+          "2p": "habt",
+          "3p": "haben"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "hatte",
+          "2s": "hattest",
+          "3s": "hatte",
+          "1p": "hatten",
+          "2p": "hattet",
+          "3p": "hatten"
+        }
+      }
+    }
+  },
+  {
+    "language": "de",
+    "lemma": "gehen",
+    "transitivity": "intransitive",
+    "auxiliary": null,
+    "irregular": true,
+    "gloss": "go",
+    "tags": ["motion"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "gehe",
+          "2s": "gehst",
+          "3s": "geht",
+          "1p": "gehen",
+          "2p": "geht",
+          "3p": "gehen"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "ging",
+          "2s": "gingst",
+          "3s": "ging",
+          "1p": "gingen",
+          "2p": "gingt",
+          "3p": "gingen"
+        }
+      }
+    }
+  },
+  {
+    "language": "de",
+    "lemma": "kommen",
+    "transitivity": "intransitive",
+    "auxiliary": null,
+    "irregular": true,
+    "gloss": "come",
+    "tags": ["motion"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "komme",
+          "2s": "kommst",
+          "3s": "kommt",
+          "1p": "kommen",
+          "2p": "kommt",
+          "3p": "kommen"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "kam",
+          "2s": "kamst",
+          "3s": "kam",
+          "1p": "kamen",
+          "2p": "kamt",
+          "3p": "kamen"
+        }
+      }
+    }
+  },
+  {
+    "language": "de",
+    "lemma": "sehen",
+    "transitivity": "transitive",
+    "auxiliary": null,
+    "irregular": true,
+    "gloss": "see",
+    "tags": ["perception"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "sehe",
+          "2s": "siehst",
+          "3s": "sieht",
+          "1p": "sehen",
+          "2p": "seht",
+          "3p": "sehen"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "sah",
+          "2s": "sahst",
+          "3s": "sah",
+          "1p": "sahen",
+          "2p": "saht",
+          "3p": "sahen"
+        }
+      }
+    }
+  },
+  {
+    "language": "de",
+    "lemma": "sprechen",
+    "transitivity": "transitive",
+    "auxiliary": null,
+    "irregular": true,
+    "gloss": "speak",
+    "tags": ["communication"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "spreche",
+          "2s": "sprichst",
+          "3s": "spricht",
+          "1p": "sprechen",
+          "2p": "sprecht",
+          "3p": "sprechen"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "sprach",
+          "2s": "sprachst",
+          "3s": "sprach",
+          "1p": "sprachen",
+          "2p": "spracht",
+          "3p": "sprachen"
+        }
+      }
+    }
+  },
+  {
+    "language": "de",
+    "lemma": "essen",
+    "transitivity": "transitive",
+    "auxiliary": null,
+    "irregular": true,
+    "gloss": "eat",
+    "tags": ["action"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "esse",
+          "2s": "isst",
+          "3s": "isst",
+          "1p": "essen",
+          "2p": "esst",
+          "3p": "essen"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "aß",
+          "2s": "aßest",
+          "3s": "aß",
+          "1p": "aßen",
+          "2p": "aßt",
+          "3p": "aßen"
+        }
+      }
+    }
+  },
+  {
+    "language": "de",
+    "lemma": "gehen",
+    "transitivity": "intransitive",
+    "auxiliary": null,
+    "irregular": false,
+    "gloss": "walk",
+    "tags": ["motion"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "gehe",
+          "2s": "gehst",
+          "3s": "geht",
+          "1p": "gehen",
+          "2p": "geht",
+          "3p": "gehen"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "ging",
+          "2s": "gingst",
+          "3s": "ging",
+          "1p": "gingen",
+          "2p": "gingt",
+          "3p": "gingen"
+        }
+      }
+    }
+  },
+  {
+    "language": "de",
+    "lemma": "nehmen",
+    "transitivity": "transitive",
+    "auxiliary": null,
+    "irregular": true,
+    "gloss": "take",
+    "tags": ["action"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "nehme",
+          "2s": "nimmst",
+          "3s": "nimmt",
+          "1p": "nehmen",
+          "2p": "nehmt",
+          "3p": "nehmen"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "nahm",
+          "2s": "nahmst",
+          "3s": "nahm",
+          "1p": "nahmen",
+          "2p": "nahmt",
+          "3p": "nahmen"
+        }
+      }
+    }
+  },
+  {
+    "language": "de",
+    "lemma": "wissen",
+    "transitivity": "transitive",
+    "auxiliary": null,
+    "irregular": true,
+    "gloss": "know",
+    "tags": ["cognition"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "weiß",
+          "2s": "weißt",
+          "3s": "weiß",
+          "1p": "wissen",
+          "2p": "wisst",
+          "3p": "wissen"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "wusste",
+          "2s": "wusstest",
+          "3s": "wusste",
+          "1p": "wussten",
+          "2p": "wusstet",
+          "3p": "wussten"
+        }
+      }
+    }
+  }
+]

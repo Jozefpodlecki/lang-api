@@ -1,0 +1,332 @@
+[
+  {
+    "language": "en",
+    "lemma": "be",
+    "transitivity": null,
+    "auxiliary": "yes",
+    "irregular": true,
+    "gloss": "exist",
+    "tags": ["copula", "auxiliary"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "am",
+          "2s": "are",
+          "3s": "is",
+          "1p": "are",
+          "2p": "are",
+          "3p": "are"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "was",
+          "2s": "were",
+          "3s": "was",
+          "1p": "were",
+          "2p": "were",
+          "3p": "were"
+        }
+      }
+    }
+  },
+  {
+    "language": "en",
+    "lemma": "have",
+    "transitivity": "transitive",
+    "auxiliary": "yes",
+    "irregular": true,
+    "gloss": "possess",
+    "tags": ["auxiliary", "main verb"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "have",
+          "2s": "have",
+          "3s": "has",
+          "1p": "have",
+          "2p": "have",
+          "3p": "have"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "had",
+          "2s": "had",
+          "3s": "had",
+          "1p": "had",
+          "2p": "had",
+          "3p": "had"
+        }
+      }
+    }
+  },
+  {
+    "language": "en",
+    "lemma": "do",
+    "transitivity": "transitive",
+    "auxiliary": "yes",
+    "irregular": true,
+    "gloss": "perform",
+    "tags": ["auxiliary", "main verb"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "do",
+          "2s": "do",
+          "3s": "does",
+          "1p": "do",
+          "2p": "do",
+          "3p": "do"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "did",
+          "2s": "did",
+          "3s": "did",
+          "1p": "did",
+          "2p": "did",
+          "3p": "did"
+        }
+      }
+    }
+  },
+  {
+    "language": "en",
+    "lemma": "go",
+    "transitivity": "intransitive",
+    "auxiliary": null,
+    "irregular": true,
+    "gloss": "move",
+    "tags": ["motion"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "go",
+          "2s": "go",
+          "3s": "goes",
+          "1p": "go",
+          "2p": "go",
+          "3p": "go"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "went",
+          "2s": "went",
+          "3s": "went",
+          "1p": "went",
+          "2p": "went",
+          "3p": "went"
+        }
+      }
+    }
+  },
+  {
+    "language": "en",
+    "lemma": "say",
+    "transitivity": "transitive",
+    "auxiliary": null,
+    "irregular": true,
+    "gloss": "utter",
+    "tags": ["communication"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "say",
+          "2s": "say",
+          "3s": "says",
+          "1p": "say",
+          "2p": "say",
+          "3p": "say"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "said",
+          "2s": "said",
+          "3s": "said",
+          "1p": "said",
+          "2p": "said",
+          "3p": "said"
+        }
+      }
+    }
+  },
+  {
+    "language": "en",
+    "lemma": "make",
+    "transitivity": "transitive",
+    "auxiliary": null,
+    "irregular": true,
+    "gloss": "create",
+    "tags": ["creation"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "make",
+          "2s": "make",
+          "3s": "makes",
+          "1p": "make",
+          "2p": "make",
+          "3p": "make"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "made",
+          "2s": "made",
+          "3s": "made",
+          "1p": "made",
+          "2p": "made",
+          "3p": "made"
+        }
+      }
+    }
+  },
+  {
+    "language": "en",
+    "lemma": "take",
+    "transitivity": "transitive",
+    "auxiliary": null,
+    "irregular": true,
+    "gloss": "seize",
+    "tags": ["action"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "take",
+          "2s": "take",
+          "3s": "takes",
+          "1p": "take",
+          "2p": "take",
+          "3p": "take"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "took",
+          "2s": "took",
+          "3s": "took",
+          "1p": "took",
+          "2p": "took",
+          "3p": "took"
+        }
+      }
+    }
+  },
+  {
+    "language": "en",
+    "lemma": "come",
+    "transitivity": "intransitive",
+    "auxiliary": null,
+    "irregular": true,
+    "gloss": "arrive",
+    "tags": ["motion"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "come",
+          "2s": "come",
+          "3s": "comes",
+          "1p": "come",
+          "2p": "come",
+          "3p": "come"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "came",
+          "2s": "came",
+          "3s": "came",
+          "1p": "came",
+          "2p": "came",
+          "3p": "came"
+        }
+      }
+    }
+  },
+  {
+    "language": "en",
+    "lemma": "see",
+    "transitivity": "transitive",
+    "auxiliary": null,
+    "irregular": true,
+    "gloss": "perceive",
+    "tags": ["perception"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "see",
+          "2s": "see",
+          "3s": "sees",
+          "1p": "see",
+          "2p": "see",
+          "3p": "see"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "saw",
+          "2s": "saw",
+          "3s": "saw",
+          "1p": "saw",
+          "2p": "saw",
+          "3p": "saw"
+        }
+      }
+    }
+  },
+  {
+    "language": "en",
+    "lemma": "know",
+    "transitivity": "transitive",
+    "auxiliary": null,
+    "irregular": true,
+    "gloss": "understand",
+    "tags": ["cognition"],
+    "conjugations": {
+      "present": {
+        "tense": "present",
+        "forms": {
+          "1s": "know",
+          "2s": "know",
+          "3s": "knows",
+          "1p": "know",
+          "2p": "know",
+          "3p": "know"
+        }
+      },
+      "past": {
+        "tense": "past",
+        "forms": {
+          "1s": "knew",
+          "2s": "knew",
+          "3s": "knew",
+          "1p": "knew",
+          "2p": "knew",
+          "3p": "knew"
+        }
+      }
+    }
+  }
+]

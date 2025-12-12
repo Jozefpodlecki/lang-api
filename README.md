@@ -16,5 +16,6 @@ cargo run
 
 ```
 http://localhost:3000/api/v1/en
+http://localhost:3000/api/v1/en/verbs
 http://localhost:3000/api/v1/{lang}/personal-pronouns
 ```

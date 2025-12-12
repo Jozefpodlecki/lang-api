@@ -5,7 +5,7 @@ use log::*;
 use mongodb::Client;
 use serde::de::DeserializeOwned;
 
-use crate::{data::{pronouns::PronounsRepository, FeaturesRepository}, models::{LanguageFeatures, PluralPronouns, Pronouns, SingularPronouns}, utils::create_mongodb_client};
+use crate::{data::{pronouns::PronounsRepository, FeaturesRepository, VerbsRepository}, models::{LanguageFeatures, PluralPronouns, Pronouns, SingularPronouns, Verb}, utils::create_mongodb_client};
 
 pub async fn seed_data() -> Result<()> {
 
@@ -50,13 +50,22 @@ pub async fn seed_features(client: &Client) -> Result<()> {
 }
 
 pub async fn seed_verbs(client: &Client) -> Result<()> {
-    let verbs = FeaturesRepository::new(client);
+    let verbs = VerbsRepository::new(client);
 
-    let documents: Vec<LanguageFeatures>  = load_json("data/verbs.json")?;
+    let documents: Vec<Verb>  = load_json("data/en/verbs.json")?;
+
+    for document in documents {
+        debug!("loading verb: {}", document.lemma);
+        verbs.insert(document).await?;
+    }
+
+    let documents: Vec<Verb>  = load_json("data/de/verbs.json")?;
 
     for document in documents {
         verbs.insert(document).await?;
     }
+
+    debug!("loaded verbs");
 
     Ok(())
 }
@@ -100,6 +109,7 @@ pub async fn seed_pronouns(client: &Client) -> Result<()> {
 
     pronouns.insert(document).await?;
 
+    debug!("loaded pronouns");
 
     Ok(())
 }
