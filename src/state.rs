@@ -7,6 +7,7 @@ use crate::{data::*, utils::create_mongodb_client};
 pub struct AppState {
     pub pronouns: PronounsRepository,
     pub features: FeaturesRepository,
+    pub verbs: VerbsRepository,
 }
 
 impl AppState {
@@ -15,10 +16,12 @@ impl AppState {
         let client = create_mongodb_client().await?;
         let pronouns = PronounsRepository::new(&client);
         let features = FeaturesRepository::new(&client);
+        let verbs = VerbsRepository::new(&client);
 
         Ok(Self {
             pronouns,
-            features
+            features,
+            verbs
         })
     }
 }

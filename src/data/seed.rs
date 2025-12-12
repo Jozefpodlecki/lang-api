@@ -1,7 +1,9 @@
-use std::collections::HashMap;
+use std::{collections::HashMap, fs};
 
 use anyhow::Result;
+use log::*;
 use mongodb::Client;
+use serde::de::DeserializeOwned;
 
 use crate::{data::{pronouns::PronounsRepository, FeaturesRepository}, models::{LanguageFeatures, PluralPronouns, Pronouns, SingularPronouns}, utils::create_mongodb_client};
 
@@ -22,96 +24,42 @@ pub async fn seed_data() -> Result<()> {
 
     seed_features(&client).await?;
     seed_pronouns(&client).await?;
+    seed_verbs(&client).await?;
 
     Ok(())
+}
+
+pub fn load_json<T: DeserializeOwned>(path: &str) -> Result<T> {
+    let data = fs::read(path)?;
+    let parsed = serde_json::from_slice(&data)?;
+    Ok(parsed)
 }
 
 pub async fn seed_features(client: &Client) -> Result<()> {
     let features = FeaturesRepository::new(client);
 
-      let en = LanguageFeatures {
-        language: "en".into(),
+    let documents: Vec<LanguageFeatures>  = load_json("data/features.json")?;
 
-        // Syntax
-        word_order: Some("SVO".into()),
-        topic_prominent: Some(false),
-
-        // Morphology
-        morphological_typology: Some("analytic".into()),
-        has_inflection: Some(false),        // only minor residual inflection
-        has_conjugation: Some(true),
-        has_tense_marking: Some(true),
-
-        // Nominal system
-        has_grammatical_gender: Some(false),
-        gender_count: Some(0),
-        has_cases: Some(false),
-        case_count: Some(0),
-        classifier_system: Some(false),
-        classifier_count: Some(0),
-
-        // Pronouns & pragmatics
-        pro_drop: Some(false),
-        politeness_levels: Some(false),
-
-        // Aspect & particles
-        aspect_prominent: Some(false),       // has aspect, but not typologically dominant
-        extensive_particles: Some(false),
-
-        // Writing system
-        writing_system: Some("Latin".into()),
-        script_direction: Some("LTR".into()),
-
-        // Phonology
-        tonal_language: Some(false),
-        tone_count: Some(0),
-    };
-
-    features.insert(en).await?;
-
-     let de = LanguageFeatures {
-        language: "de".into(),
-
-        // Syntax
-        word_order: Some("SVO/SOV".into()),   // German is underlyingly SOV in embedded clauses
-        topic_prominent: Some(false),
-
-        // Morphology
-        morphological_typology: Some("fusional".into()),
-        has_inflection: Some(true),
-        has_conjugation: Some(true),
-        has_tense_marking: Some(true),
-
-        // Nominal system
-        has_grammatical_gender: Some(true),
-        gender_count: Some(3),
-        has_cases: Some(true),
-        case_count: Some(4),
-        classifier_system: Some(false),
-        classifier_count: Some(0),
-
-        // Pronouns & pragmatics
-        pro_drop: Some(false),
-        politeness_levels: Some(true),       // "Sie" vs "du"
-
-        // Aspect & particles
-        aspect_prominent: Some(false),        // German expresses aspect lexically
-        extensive_particles: Some(false),     // separable prefixes exist but not particles like Japanese
-
-        // Writing system
-        writing_system: Some("Latin".into()),
-        script_direction: Some("LTR".into()),
-
-        // Phonology
-        tonal_language: Some(false),
-        tone_count: Some(0),
-    };
-
-    features.insert(de).await?;
+    for document in documents {
+        features.insert(document).await?;
+    }
+    
+    debug!("loaded languages");
 
     Ok(())
 }
 
+pub async fn seed_verbs(client: &Client) -> Result<()> {
+    let verbs = FeaturesRepository::new(client);
+
+    let documents: Vec<LanguageFeatures>  = load_json("data/verbs.json")?;
+
+    for document in documents {
+        verbs.insert(document).await?;
+    }
+
+    Ok(())
+}
 
 pub async fn seed_pronouns(client: &Client) -> Result<()> {
     let pronouns = PronounsRepository::new(client);

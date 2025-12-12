@@ -1,4 +1,5 @@
 mod pronouns;
+mod verbs;
 mod features;
 mod builder;
 

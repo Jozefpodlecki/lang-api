@@ -1,0 +1,116 @@
+[
+  {
+    "language": "en",
+    "syntax": {
+      "wordOrders": ["SVO"],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "conditional",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": false,
+      "notes": "English is primarily SVO; some flexibility exists for stylistic inversion."
+    },
+    "morphology": {
+      "typology": "analytic",
+      "inflection": false,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Minimal noun and verb inflection; mostly analytic."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": ["nominative", "accusative", "genitive", "dative"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": true,
+      "notes": "Regular auxiliaries for tense and aspect; limited agreement on verbs."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": false,
+      "politenessSystem": false,
+      "honorificLevels": []
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "language": "de",
+    "syntax": {
+      "wordOrders": ["V2", "SOV"],
+      "dominantOrder": "V2",
+      "headDirection": "mixed",
+      "flexibility": "conditional",
+      "verbSecond": true,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": true,
+      "nullArguments": false,
+      "notes": "German main clauses are V2; subordinate clauses are verb-final. Some scrambling allowed."
+    },
+    "morphology": {
+      "typology": "fusional",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Rich inflection for verbs, nouns, and adjectives."
+    },
+    "nominal": {
+      "grammaticalGender": true,
+      "genderTypes": ["masculine", "feminine", "neuter"],
+      "cases": ["nominative", "accusative", "dative", "genitive"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": false,
+      "mood": true,
+      "agreement": ["person", "number", "gender"],
+      "auxiliaries": true,
+      "notes": "Strong agreement and auxiliaries for tense; aspect is not prominent."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": false,
+      "politenessSystem": true,
+      "honorificLevels": ["formal", "informal"]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  }
+]
