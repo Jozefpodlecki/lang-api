@@ -1,0 +1,257 @@
+[
+  {
+    "name": "Georgian",
+    "iso639p1": "ka",
+    "family": {
+      "family": "Kartvelian",
+      "subfamily": "South Caucasian",
+      "branch": "Georgian-Zan",
+      "group": "Georgian"
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "high",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": true,
+      "reliesOnWordOrder": false,
+      "scrambling": true,
+      "nullArguments": true,
+      "notes": "Georgian allows extensive scrambling due to rich case marking."
+    },
+    "morphology": {
+      "typology": "agglutinative",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Complex verb morphology with polypersonal agreement."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": ["nominative", "ergative", "dative", "genitive"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": false,
+      "notes": "Verbs agree with multiple arguments."
+    },
+    "discourse": {
+      "topicProminent": true,
+      "proDrop": true,
+      "politenessSystem": false,
+      "honorificLevels": []
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": false
+    },
+    "writing": {
+      "scripts": ["Georgian"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Chechen",
+    "iso639p1": "ce",
+    "family": {
+      "family": "Northeast Caucasian",
+      "subfamily": "Nakh",
+      "branch": "Chechen-Ingush",
+      "group": "Chechen"
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "high",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": true,
+      "nullArguments": true,
+      "notes": "Word order is flexible due to extensive case marking."
+    },
+    "morphology": {
+      "typology": "agglutinative",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Highly complex case and agreement systems."
+    },
+    "nominal": {
+      "grammaticalGender": true,
+      "genderTypes": ["noun classes"],
+      "cases": ["ergative", "absolutive", "dative", "genitive", "locative"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["nounClass", "number"],
+      "auxiliaries": false,
+      "notes": "Verbs agree with noun class."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": false,
+      "honorificLevels": []
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Cyrillic"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Abkhaz",
+    "iso639p1": "ab",
+    "family": {
+      "family": "Northwest Caucasian",
+      "subfamily": "Abkhaz-Adyghe",
+      "branch": "Abkhaz-Abaza",
+      "group": "Abkhaz"
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "high",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": true,
+      "nullArguments": true,
+      "notes": "Extensive agreement reduces reliance on word order."
+    },
+    "morphology": {
+      "typology": "polysynthetic",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Extremely complex verbal morphology."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": false,
+      "notes": "Verbs encode subject, object, and indirect object."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": false,
+      "honorificLevels": []
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": false
+    },
+    "writing": {
+      "scripts": ["Cyrillic"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Armenian",
+    "iso639p1": "hy",
+    "family": {
+      "family": "Indo-European",
+      "subfamily": "Armenian",
+      "branch": "Eastern Armenian"
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": true,
+      "nullArguments": true,
+      "notes": "Case marking allows some flexibility."
+    },
+    "morphology": {
+      "typology": "fusional",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Rich inflectional morphology."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": ["nominative", "accusative", "genitive", "dative"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": true,
+      "notes": "Auxiliaries used in compound tenses."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["formal"]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Armenian"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  }
+]

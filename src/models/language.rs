@@ -13,7 +13,11 @@ use utoipa::ToSchema;
 #[serde(rename_all = "camelCase")]
 pub struct LanguageFeatures {
     /// ISO 639-1 or ISO 639-3 language identifier (e.g. "en", "de", "zh")
-    pub language: String,
+    pub iso639p1: String,
+    
+    pub name: String,
+
+    pub family: LanguageFamily,
 
     /// Syntactic properties (word order, headedness, flexibility).
     pub syntax: Option<SyntaxFeatures>,
@@ -35,6 +39,16 @@ pub struct LanguageFeatures {
 
     /// Writing system and script information.
     pub writing: Option<WritingFeatures>,
+}
+
+#[derive(Debug, Serialize, Deserialize, ToSchema)]
+#[serde(rename_all = "camelCase")]
+pub struct LanguageFamily {
+    pub family: String,
+    pub subfamily: Option<String>,
+    pub branch: Option<String>,
+    pub group: Option<String>,
+    pub subgroup: Option<String>,
 }
 
 /// Syntactic word order and clause-structure properties.

@@ -1,0 +1,366 @@
+[
+  {
+    "name": "Samoan",
+    "iso639p1": "sm",
+    "family": {
+      "family": "Austronesian",
+      "subfamily": "Malayo-Polynesian",
+      "branch": "Oceanic",
+      "group": "Polynesian",
+      "subgroup": "Samoic"
+    },
+    "syntax": {
+      "wordOrders": [
+        "VSO",
+        "VOS"
+      ],
+      "dominantOrder": "VSO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Samoan typically uses verb-initial order and allows pro-drop."
+    },
+    "morphology": {
+      "typology": "analytic",
+      "inflection": false,
+      "conjugation": false,
+      "derivation": true,
+      "notes": "Grammatical relations marked by particles rather than inflection."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": false,
+      "aspect": true,
+      "mood": true,
+      "agreement": [],
+      "auxiliaries": true,
+      "notes": "Aspect and mood marked with preverbal particles."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": [
+        "neutral",
+        "respectful"
+      ]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": [
+        "Latin"
+      ],
+      "direction": [
+        "LTR"
+      ],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Maori",
+    "iso639p1": "mi",
+    "family": {
+      "family": "Austronesian",
+      "subfamily": "Malayo-Polynesian",
+      "branch": "Oceanic",
+      "group": "Polynesian",
+      "subgroup": "Eastern Polynesian"
+    },
+    "syntax": {
+      "wordOrders": [
+        "VSO"
+      ],
+      "dominantOrder": "VSO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Maori is verb-initial and relies on particles for grammatical roles."
+    },
+    "morphology": {
+      "typology": "analytic",
+      "inflection": false,
+      "conjugation": false,
+      "derivation": true,
+      "notes": "Minimal morphology; particles indicate tense and aspect."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": false,
+      "aspect": true,
+      "mood": true,
+      "agreement": [],
+      "auxiliaries": true,
+      "notes": "No verb conjugation; tense/aspect expressed by particles."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": false,
+      "honorificLevels": []
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": [
+        "Latin"
+      ],
+      "direction": [
+        "LTR"
+      ],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Fijian",
+    "iso639p1": "fj",
+    "family": {
+      "family": "Austronesian",
+      "subfamily": "Malayo-Polynesian",
+      "branch": "Oceanic",
+      "group": "Central Pacific",
+      "subgroup": "Fijian"
+    },
+    "syntax": {
+      "wordOrders": [
+        "VOS",
+        "SVO"
+      ],
+      "dominantOrder": "VOS",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Fijian allows verb-initial and SVO orders."
+    },
+    "morphology": {
+      "typology": "agglutinative",
+      "inflection": true,
+      "conjugation": false,
+      "derivation": true,
+      "notes": "Uses affixes and particles, especially for pronouns."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": false,
+      "aspect": true,
+      "mood": true,
+      "agreement": [],
+      "auxiliaries": true,
+      "notes": "Aspect and modality marked with particles."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": false,
+      "honorificLevels": []
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": [
+        "Latin"
+      ],
+      "direction": [
+        "LTR"
+      ],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Hawaiian",
+    "iso639p1": "haw",
+    "family": {
+      "family": "Austronesian",
+      "subfamily": "Malayo-Polynesian",
+      "branch": "Oceanic",
+      "group": "Polynesian",
+      "subgroup": "Eastern Polynesian"
+    },
+    "syntax": {
+      "wordOrders": [
+        "VSO"
+      ],
+      "dominantOrder": "VSO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Hawaiian is verb-initial and allows null arguments; particles mark grammatical relations."
+    },
+    "morphology": {
+      "typology": "analytic",
+      "inflection": false,
+      "conjugation": false,
+      "derivation": true,
+      "notes": "Minimal morphology; tense, aspect, and mood expressed via particles."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": false,
+      "aspect": true,
+      "mood": true,
+      "agreement": [],
+      "auxiliaries": true,
+      "notes": "No verb conjugation; preverbal particles indicate TAM."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": false,
+      "honorificLevels": []
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": [
+        "Latin"
+      ],
+      "direction": [
+        "LTR"
+      ],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Tongan",
+    "iso639p1": "to",
+    "family": {
+      "family": "Austronesian",
+      "subfamily": "Malayo-Polynesian",
+      "branch": "Oceanic",
+      "group": "Polynesian",
+      "subgroup": "Tongic"
+    },
+    "syntax": {
+      "wordOrders": [
+        "VSO"
+      ],
+      "dominantOrder": "VSO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Tongan is verb-initial with flexible argument omission."
+    },
+    "morphology": {
+      "typology": "analytic",
+      "inflection": false,
+      "conjugation": false,
+      "derivation": true,
+      "notes": "Uses particles rather than inflection for grammatical categories."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": false,
+      "aspect": true,
+      "mood": true,
+      "agreement": [],
+      "auxiliaries": true,
+      "notes": "Aspect and modality marked with preverbal particles."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": [
+        "commoner",
+        "chiefly",
+        "royal"
+      ]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": [
+        "Latin"
+      ],
+      "direction": [
+        "LTR"
+      ],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  }
+]

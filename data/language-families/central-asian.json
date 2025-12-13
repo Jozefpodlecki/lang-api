@@ -1,0 +1,320 @@
+[
+  {
+    "name": "Kazakh",
+    "iso639p1": "kk",
+    "family": {
+      "family": "Turkic",
+      "subfamily": "Kipchak",
+      "branch": "Kipchak–Nogai",
+      "subgroup": "Kazakh"
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "low",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Kazakh is agglutinative and pro-drop."
+    },
+    "morphology": {
+      "typology": "agglutinative",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Verbs and nouns marked extensively via suffixes."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": ["nominative", "accusative", "genitive", "dative", "locative", "ablative", "instrumental"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": true,
+      "notes": "Verbs encode tense, aspect, mood, and agreement; auxiliary verbs used for compound tenses."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["informal", "polite", "formal"]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": false
+    },
+    "writing": {
+      "scripts": ["Cyrillic", "Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Uzbek",
+    "iso639p1": "uz",
+    "family": {
+      "family": "Turkic",
+      "subfamily": "Karluk",
+      "branch": "Uzbek"
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "low",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Uzbek is agglutinative and mostly SOV."
+    },
+    "morphology": {
+      "typology": "agglutinative",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Extensive suffixation for verbs and nouns."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": ["nominative", "accusative", "genitive", "dative", "locative", "ablative", "instrumental"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": true,
+      "notes": "Verbs mark tense, aspect, mood; auxiliaries for compound forms."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["informal", "polite", "formal"]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": false
+    },
+    "writing": {
+      "scripts": ["Latin", "Cyrillic"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Turkmen",
+    "iso639p1": "tk",
+    "family": {
+      "family": "Turkic",
+      "subfamily": "Oghuz",
+      "branch": "Turkmen"
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "low",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Turkmen is agglutinative, SOV word order, pro-drop."
+    },
+    "morphology": {
+      "typology": "agglutinative",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Rich suffixing system for verbs and nouns."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": ["nominative", "accusative", "genitive", "dative", "locative", "ablative", "instrumental"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": true,
+      "notes": "Verbs mark tense, aspect, mood; auxiliaries for compound forms."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["informal", "polite", "formal"]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": false
+    },
+    "writing": {
+      "scripts": ["Latin", "Cyrillic"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Tajik",
+    "iso639p1": "tg",
+    "family": {
+      "family": "Indo-European",
+      "subfamily": "Iranian",
+      "branch": "Southwestern Iranian",
+      "subgroup": "Tajik"
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Tajik is SOV; pro-drop optional."
+    },
+    "morphology": {
+      "typology": "fusional",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Verbs and nouns inflect for tense, person, number; some derivational morphology."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": ["nominative", "accusative", "genitive", "dative", "locative", "ablative", "instrumental"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": true,
+      "notes": "Tajik verbs mark tense, aspect, mood; auxiliaries used for compound forms."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["informal", "polite", "formal"]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Cyrillic", "Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Kyrgyz",
+    "iso639p1": "ky",
+    "family": {
+      "family": "Turkic",
+      "subfamily": "Kipchak",
+      "branch": "Kipchak–Nogai",
+      "subgroup": "Kyrgyz"
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "low",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Kyrgyz is agglutinative and pro-drop; SOV word order."
+    },
+    "morphology": {
+      "typology": "agglutinative",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Rich verbal and nominal suffixation."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": ["nominative", "accusative", "genitive", "dative", "locative", "ablative", "instrumental"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": true,
+      "notes": "Verbs mark tense, aspect, mood; auxiliaries used for compound forms."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["informal", "polite", "formal"]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": false
+    },
+    "writing": {
+      "scripts": ["Cyrillic", "Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  }
+]

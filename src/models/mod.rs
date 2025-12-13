@@ -11,7 +11,7 @@ pub use verb::*;
 
 #[derive(Debug, Serialize, Deserialize, ToSchema)]
 #[serde(rename_all = "camelCase")]
-pub struct Pronouns {
+pub struct PersonalPronouns {
     pub language: String,
     pub singular: SingularPronouns,
     pub plural: PluralPronouns,

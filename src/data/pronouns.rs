@@ -1,29 +1,29 @@
-use mongodb::{bson::doc, options::ClientOptions, Client, Collection};
+use mongodb::{bson::doc, Client, Collection};
 use anyhow::*;
 
-use crate::models::Pronouns;
+use crate::models::PersonalPronouns;
 
 #[derive(Clone)]
 pub struct PronounsRepository {
-    collection: Collection<Pronouns>
+    collection: Collection<PersonalPronouns>
 }
 
 impl PronounsRepository {
     pub fn new(client: &Client) -> Self {
         let col = client
             .database("linguistics")
-            .collection::<Pronouns>("pronouns");
+            .collection::<PersonalPronouns>("pronouns");
 
         Self { collection: col }
     }
 
-    pub async fn get(&self, lang: &str) -> Result<Option<Pronouns>> {
+    pub async fn get(&self, lang: &str) -> Result<Option<PersonalPronouns>> {
         let filter = doc! { "language": lang };
         let result = self.collection.find_one(filter).await?;
         Ok(result)
     }
 
-    pub async fn insert(&self, value: Pronouns) -> Result<()> {
+    pub async fn insert(&self, value: PersonalPronouns) -> Result<()> {
 
         self.collection.insert_one(value).await?;
 

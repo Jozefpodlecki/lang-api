@@ -8,6 +8,7 @@ use utoipa::ToSchema;
 pub struct Verb {
     pub language: String,
     pub lemma: String,
+    pub particles: Vec<String>,
 
     // Classification
     pub transitivity: Option<String>,

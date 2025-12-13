@@ -1,0 +1,256 @@
+[
+  {
+    "name": "Quechua",
+    "iso639p1": "qu",
+    "family": {
+      "family": "Quechuan",
+      "subfamily": "Central Quechua",
+      "branch": "Southern Quechua",
+      "subgroup": "Cusco Quechua"
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "low",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": true,
+      "nullArguments": false,
+      "notes": "Quechua is agglutinative with SOV word order."
+    },
+    "morphology": {
+      "typology": "agglutinative",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Extensive verbal affixation and nominal marking."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": ["nominative", "accusative", "genitive", "dative"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": false,
+      "notes": "Verbs mark tense, aspect, mood, and person/number agreement."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": false,
+      "honorificLevels": []
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Navajo",
+    "iso639p1": "nv",
+    "family": {
+      "family": "Dené-Yeniseian",
+      "subfamily": "Na-Dené",
+      "branch": "Athabaskan",
+      "subgroup": "Southern Athabaskan"
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "low",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": false,
+      "nullArguments": false,
+      "notes": "Navajo is polysynthetic; SOV word order."
+    },
+    "morphology": {
+      "typology": "polysynthetic",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Highly complex verb morphology."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": false,
+      "notes": "Verb incorporates subject/object and shows tense, aspect, mood."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": false,
+      "honorificLevels": []
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Guarani",
+    "iso639p1": "gn",
+    "family": {
+      "family": "Tupian",
+      "subfamily": "Tupí-Guaraní",
+      "branch": "Guaraní"
+    },
+    "syntax": {
+      "wordOrders": ["SVO"],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": true,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Guarani is pro-drop and topic-prominent."
+    },
+    "morphology": {
+      "typology": "agglutinative",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Rich verbal and nominal morphology."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": false,
+      "notes": "Polysynthetic verb forms encode multiple arguments."
+    },
+    "discourse": {
+      "topicProminent": true,
+      "proDrop": true,
+      "politenessSystem": false,
+      "honorificLevels": []
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Nahuatl",
+    "iso639p1": "nah",
+    "family": {
+      "family": "Uto-Aztecan",
+      "subfamily": "Nahuan",
+      "branch": "Eastern Nahuatl"
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": true,
+      "nullArguments": true,
+      "notes": "Nahuatl has flexible SOV word order; pro-drop common."
+    },
+    "morphology": {
+      "typology": "agglutinative",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Extensive verbal affixation and derivation."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": false,
+      "notes": "Verbs encode multiple grammatical categories and agreement."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": false,
+      "honorificLevels": []
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  }
+]

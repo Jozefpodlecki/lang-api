@@ -2,6 +2,7 @@
   {
     "language": "de",
     "lemma": "sein",
+    "particles": [],
     "transitivity": null,
     "auxiliary": "yes",
     "irregular": true,
@@ -35,6 +36,7 @@
   {
     "language": "de",
     "lemma": "haben",
+    "particles": [],
     "transitivity": "transitive",
     "auxiliary": "yes",
     "irregular": true,
@@ -68,6 +70,7 @@
   {
     "language": "de",
     "lemma": "gehen",
+    "particles": [],
     "transitivity": "intransitive",
     "auxiliary": null,
     "irregular": true,
@@ -101,6 +104,7 @@
   {
     "language": "de",
     "lemma": "kommen",
+    "particles": [],
     "transitivity": "intransitive",
     "auxiliary": null,
     "irregular": true,
@@ -134,6 +138,7 @@
   {
     "language": "de",
     "lemma": "sehen",
+    "particles": [],
     "transitivity": "transitive",
     "auxiliary": null,
     "irregular": true,
@@ -167,6 +172,7 @@
   {
     "language": "de",
     "lemma": "sprechen",
+    "particles": [],
     "transitivity": "transitive",
     "auxiliary": null,
     "irregular": true,
@@ -200,6 +206,7 @@
   {
     "language": "de",
     "lemma": "essen",
+    "particles": [],
     "transitivity": "transitive",
     "auxiliary": null,
     "irregular": true,
@@ -233,6 +240,7 @@
   {
     "language": "de",
     "lemma": "gehen",
+    "particles": [],
     "transitivity": "intransitive",
     "auxiliary": null,
     "irregular": false,
@@ -266,6 +274,7 @@
   {
     "language": "de",
     "lemma": "nehmen",
+    "particles": [],
     "transitivity": "transitive",
     "auxiliary": null,
     "irregular": true,
@@ -299,6 +308,7 @@
   {
     "language": "de",
     "lemma": "wissen",
+    "particles": [],
     "transitivity": "transitive",
     "auxiliary": null,
     "irregular": true,

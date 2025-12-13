@@ -1,0 +1,259 @@
+[
+  {
+    "name": "Arabic",
+    "iso639p1": "ar",
+    "family": {
+      "family": "Afro-Asiatic",
+      "subfamily": "Semitic",
+      "branch": "Central Semitic",
+      "group": "Arabic"
+    },
+    "syntax": {
+      "wordOrders": ["VSO", "SVO"],
+      "dominantOrder": "VSO",
+      "headDirection": "head-initial",
+      "flexibility": "high",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": true,
+      "nullArguments": true,
+      "notes": "Classical Arabic favors VSO; Modern varieties often use SVO. Pro-drop is common."
+    },
+    "morphology": {
+      "typology": "fusional",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Root-and-pattern morphology with rich inflection."
+    },
+    "nominal": {
+      "grammaticalGender": true,
+      "genderTypes": ["masculine", "feminine"],
+      "cases": ["nominative", "accusative", "genitive"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number", "gender"],
+      "auxiliaries": false,
+      "notes": "Verbs inflect for person, number, gender, tense, and mood."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": false,
+      "honorificLevels": []
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Arabic"],
+      "direction": ["RTL"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Hebrew",
+    "iso639p1": "he",
+    "family": {
+      "family": "Afro-Asiatic",
+      "subfamily": "Semitic",
+      "branch": "Northwest Semitic",
+      "group": "Hebrew"
+    },
+    "syntax": {
+      "wordOrders": ["SVO"],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Modern Hebrew is primarily SVO with some flexibility."
+    },
+    "morphology": {
+      "typology": "fusional",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Root-and-pattern morphology similar to Arabic."
+    },
+    "nominal": {
+      "grammaticalGender": true,
+      "genderTypes": ["masculine", "feminine"],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number", "gender"],
+      "auxiliaries": false,
+      "notes": "Verbs inflect richly; tense and aspect expressed morphologically."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": false,
+      "honorificLevels": []
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Hebrew"],
+      "direction": ["RTL"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Persian",
+    "iso639p1": "fa",
+    "family": {
+      "family": "Indo-European",
+      "subfamily": "Indo-Iranian",
+      "branch": "Iranian",
+      "group": "Western Iranian",
+      "subgroup": "Persian"
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": true,
+      "nullArguments": true,
+      "notes": "Persian is SOV with postpositions and auxiliary constructions."
+    },
+    "morphology": {
+      "typology": "analytic",
+      "inflection": false,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Minimal inflection; tense and aspect mostly analytic."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": true,
+      "notes": "Compound verb system with auxiliaries."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["formal", "informal"]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Arabic"],
+      "direction": ["RTL"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Turkish",
+    "iso639p1": "tr",
+    "family": {
+      "family": "Turkic",
+      "subfamily": "Common Turkic",
+      "branch": "Oghuz",
+      "group": "Western Oghuz"
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "high",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": true,
+      "nullArguments": true,
+      "notes": "Agglutinative SOV language with extensive scrambling."
+    },
+    "morphology": {
+      "typology": "agglutinative",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Extensive suffixation with vowel harmony."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": ["nominative", "accusative", "dative", "locative", "ablative", "genitive"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": false,
+      "notes": "Verbs encode tense, aspect, mood, and evidentiality."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["informal", "formal"]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  }
+]

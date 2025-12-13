@@ -1,0 +1,260 @@
+[
+  {
+    "name": "Swahili",
+    "iso639p1": "sw",
+    "family": {
+      "family": "Niger-Congo",
+      "subfamily": "Atlantic-Congo",
+      "branch": "Benue-Congo",
+      "group": "Bantu",
+      "subgroup": "Swahili"
+    },
+    "syntax": {
+      "wordOrders": ["SVO"],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Swahili is primarily SVO with subject agreement allowing pro-drop."
+    },
+    "morphology": {
+      "typology": "agglutinative",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Rich noun class system and extensive verbal morphology."
+    },
+    "nominal": {
+      "grammaticalGender": true,
+      "genderTypes": ["noun classes"],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number", "nounClass"],
+      "auxiliaries": false,
+      "notes": "Verbs encode subject and object agreement."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["polite", "formal"]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Yoruba",
+    "iso639p1": "yo",
+    "family": {
+      "family": "Niger-Congo",
+      "subfamily": "Atlantic-Congo",
+      "branch": "Volta-Niger",
+      "group": "Yoruboid"
+    },
+    "syntax": {
+      "wordOrders": ["SVO"],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "low",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": true,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Yoruba is SVO and topic-prominent."
+    },
+    "morphology": {
+      "typology": "analytic",
+      "inflection": false,
+      "conjugation": false,
+      "derivation": true,
+      "notes": "Little inflection; grammatical relations expressed analytically."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": false,
+      "aspect": true,
+      "mood": true,
+      "agreement": [],
+      "auxiliaries": true,
+      "notes": "Aspect and mood expressed through particles."
+    },
+    "discourse": {
+      "topicProminent": true,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["respectful"]
+    },
+    "phonology": {
+      "tonal": true,
+      "toneCount": 3,
+      "pitchAccent": false,
+      "stress": false
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Amharic",
+    "iso639p1": "am",
+    "family": {
+      "family": "Afro-Asiatic",
+      "subfamily": "Semitic",
+      "branch": "Ethiopic",
+      "group": "Amharic"
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": true,
+      "nullArguments": true,
+      "notes": "Amharic is SOV with verb-final clauses."
+    },
+    "morphology": {
+      "typology": "fusional",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Root-and-pattern Semitic morphology."
+    },
+    "nominal": {
+      "grammaticalGender": true,
+      "genderTypes": ["masculine", "feminine"],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number", "gender"],
+      "auxiliaries": false,
+      "notes": "Verbs inflect extensively."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["formal"]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Geʽez"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": true,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Zulu",
+    "iso639p1": "zu",
+    "family": {
+      "family": "Niger-Congo",
+      "subfamily": "Atlantic-Congo",
+      "branch": "Benue-Congo",
+      "group": "Bantu",
+      "subgroup": "Nguni"
+    },
+    "syntax": {
+      "wordOrders": ["SVO"],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Zulu allows subject drop due to agreement markers."
+    },
+    "morphology": {
+      "typology": "agglutinative",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Extensive noun class and agreement system."
+    },
+    "nominal": {
+      "grammaticalGender": true,
+      "genderTypes": ["noun classes"],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number", "nounClass"],
+      "auxiliaries": false,
+      "notes": "Verbs encode subject and object agreement."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["respectful"]
+    },
+    "phonology": {
+      "tonal": true,
+      "toneCount": 2,
+      "pitchAccent": false,
+      "stress": false
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  }
+]

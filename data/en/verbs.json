@@ -2,6 +2,7 @@
   {
     "language": "en",
     "lemma": "be",
+    "particles": [],
     "transitivity": null,
     "auxiliary": "yes",
     "irregular": true,
@@ -35,6 +36,7 @@
   {
     "language": "en",
     "lemma": "have",
+    "particles": [],
     "transitivity": "transitive",
     "auxiliary": "yes",
     "irregular": true,
@@ -68,6 +70,7 @@
   {
     "language": "en",
     "lemma": "do",
+    "particles": [],
     "transitivity": "transitive",
     "auxiliary": "yes",
     "irregular": true,
@@ -101,6 +104,7 @@
   {
     "language": "en",
     "lemma": "go",
+    "particles": [],
     "transitivity": "intransitive",
     "auxiliary": null,
     "irregular": true,
@@ -134,6 +138,7 @@
   {
     "language": "en",
     "lemma": "say",
+    "particles": [],
     "transitivity": "transitive",
     "auxiliary": null,
     "irregular": true,
@@ -167,6 +172,7 @@
   {
     "language": "en",
     "lemma": "make",
+    "particles": [],
     "transitivity": "transitive",
     "auxiliary": null,
     "irregular": true,
@@ -200,6 +206,7 @@
   {
     "language": "en",
     "lemma": "take",
+    "particles": [],
     "transitivity": "transitive",
     "auxiliary": null,
     "irregular": true,
@@ -233,6 +240,7 @@
   {
     "language": "en",
     "lemma": "come",
+    "particles": [],
     "transitivity": "intransitive",
     "auxiliary": null,
     "irregular": true,
@@ -266,6 +274,7 @@
   {
     "language": "en",
     "lemma": "see",
+    "particles": [],
     "transitivity": "transitive",
     "auxiliary": null,
     "irregular": true,
@@ -299,6 +308,7 @@
   {
     "language": "en",
     "lemma": "know",
+    "particles": [],
     "transitivity": "transitive",
     "auxiliary": null,
     "irregular": true,

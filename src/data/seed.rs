@@ -1,11 +1,11 @@
-use std::{collections::HashMap, fs};
+use std::{fs, path::Path};
 
 use anyhow::Result;
 use log::*;
 use mongodb::Client;
 use serde::de::DeserializeOwned;
 
-use crate::{data::{pronouns::PronounsRepository, FeaturesRepository, VerbsRepository}, models::{LanguageFeatures, PluralPronouns, Pronouns, SingularPronouns, Verb}, utils::create_mongodb_client};
+use crate::{data::{pronouns::PronounsRepository, FeaturesRepository, VerbsRepository}, models::*, utils::create_mongodb_client};
 
 pub async fn seed_data() -> Result<()> {
 
@@ -22,29 +22,36 @@ pub async fn seed_data() -> Result<()> {
         return Ok(());
     }
 
-    seed_features(&client).await?;
+    seed_language_metadata(&client).await?;
     seed_pronouns(&client).await?;
     seed_verbs(&client).await?;
 
     Ok(())
 }
 
-pub fn load_json<T: DeserializeOwned>(path: &str) -> Result<T> {
+pub fn load_json<T: DeserializeOwned>(path: impl AsRef<Path>) -> Result<T> {
     let data = fs::read(path)?;
     let parsed = serde_json::from_slice(&data)?;
     Ok(parsed)
 }
 
-pub async fn seed_features(client: &Client) -> Result<()> {
+pub async fn seed_language_metadata(client: &Client) -> Result<()> {
     let features = FeaturesRepository::new(client);
 
-    let documents: Vec<LanguageFeatures>  = load_json("data/features.json")?;
+    for entry in fs::read_dir("data/language-families")? {
+        let entry = entry?;
+        let path = entry.path();
 
-    for document in documents {
-        features.insert(document).await?;
+        debug!("loading {}", path.file_name().unwrap().display());
+
+        let documents: Vec<LanguageFeatures>  = load_json(&path)?;
+
+        for document in documents {
+            features.insert(document).await?;
+        }
     }
     
-    debug!("loaded languages");
+    debug!("loaded language metadata");
 
     Ok(())
 }
@@ -52,14 +59,14 @@ pub async fn seed_features(client: &Client) -> Result<()> {
 pub async fn seed_verbs(client: &Client) -> Result<()> {
     let verbs = VerbsRepository::new(client);
 
-    let documents: Vec<Verb>  = load_json("data/en/verbs.json")?;
+    let documents: Vec<Verb> = load_json("data/en/verbs.json")?;
 
     for document in documents {
-        debug!("loading verb: {}", document.lemma);
+        // debug!("loading verb: {}", document.lemma);
         verbs.insert(document).await?;
     }
 
-    let documents: Vec<Verb>  = load_json("data/de/verbs.json")?;
+    let documents: Vec<Verb> = load_json("data/de/verbs.json")?;
 
     for document in documents {
         verbs.insert(document).await?;
@@ -73,41 +80,11 @@ pub async fn seed_verbs(client: &Client) -> Result<()> {
 pub async fn seed_pronouns(client: &Client) -> Result<()> {
     let pronouns = PronounsRepository::new(client);
 
-    let document = Pronouns {
-        language: "en".into(),
-        singular: SingularPronouns {
-            first:   Some("I".into()),
-            second:  Some("you".into()),
-            third_m: Some("he".into()),
-            third_f: Some("she".into()),
-            third_n: Some("it".into()),
-        },
-        plural: PluralPronouns {
-            first:  Some("we".into()),
-            second: Some("you".into()),
-            third:  Some("they".into()),
-        },
-    };
+    let documents: Vec<PersonalPronouns> = load_json("data/personal-pronouns.json")?;
 
-    pronouns.insert(document).await?;
-
-    let document = Pronouns {
-        language: "de".into(),
-        singular: SingularPronouns {
-            first:   Some("ich".into()),
-            second:  Some("du".into()),
-            third_m: Some("er".into()),
-            third_f: Some("sie".into()),
-            third_n: Some("es".into()),
-        },
-        plural: PluralPronouns {
-            first:  Some("wir".into()),
-            second: Some("ihr".into()),
-            third:  Some("sie".into()),
-        },
-    };
-
-    pronouns.insert(document).await?;
+    for document in documents {
+        pronouns.insert(document).await?;
+    }
 
     debug!("loaded pronouns");
 

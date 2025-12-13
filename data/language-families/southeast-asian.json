@@ -1,0 +1,255 @@
+[
+  {
+    "name": "Vietnamese",
+    "iso639p1": "vi",
+    "family": {
+      "family": "Austroasiatic",
+      "subfamily": "Vietic",
+      "branch": "Vietnamese"
+    },
+    "syntax": {
+      "wordOrders": ["SVO"],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": true,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": false,
+      "notes": "Vietnamese is primarily SVO and topic-prominent."
+    },
+    "morphology": {
+      "typology": "analytic",
+      "inflection": false,
+      "conjugation": false,
+      "derivation": true,
+      "notes": "No inflection; words are mostly unmarked."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": [],
+      "classifiers": true,
+      "classifierType": "numeral"
+    },
+    "verbal": {
+      "tense": false,
+      "aspect": true,
+      "mood": true,
+      "agreement": [],
+      "auxiliaries": true,
+      "notes": "Uses particles for aspect and mood; no tense inflection."
+    },
+    "discourse": {
+      "topicProminent": true,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["familiar", "polite", "formal"]
+    },
+    "phonology": {
+      "tonal": true,
+      "toneCount": 6,
+      "pitchAccent": false,
+      "stress": false
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Thai",
+    "iso639p1": "th",
+    "family": {
+      "family": "Kra-Dai",
+      "subfamily": "Tai",
+      "branch": "Central Tai"
+    },
+    "syntax": {
+      "wordOrders": ["SVO"],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "low",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": false,
+      "notes": "Thai is strictly SVO; modifiers precede nouns."
+    },
+    "morphology": {
+      "typology": "analytic",
+      "inflection": false,
+      "conjugation": false,
+      "derivation": true,
+      "notes": "No verb inflection; tense and aspect marked with particles."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": [],
+      "classifiers": true,
+      "classifierType": "numeral"
+    },
+    "verbal": {
+      "tense": false,
+      "aspect": true,
+      "mood": true,
+      "agreement": [],
+      "auxiliaries": true,
+      "notes": "Uses particles and auxiliary verbs for aspect and mood."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["informal", "polite", "formal"]
+    },
+    "phonology": {
+      "tonal": true,
+      "toneCount": 5,
+      "pitchAccent": false,
+      "stress": false
+    },
+    "writing": {
+      "scripts": ["Thai"],
+      "direction": ["LTR"],
+      "alphabetic": false,
+      "abugida": true,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Malay",
+    "iso639p1": "ms",
+    "family": {
+      "family": "Austronesian",
+      "subfamily": "Malayo-Polynesian",
+      "branch": "Malayic"
+    },
+    "syntax": {
+      "wordOrders": ["SVO"],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Malay allows SVO and pro-drop sentences."
+    },
+    "morphology": {
+      "typology": "analytic",
+      "inflection": false,
+      "conjugation": false,
+      "derivation": true,
+      "notes": "No verb conjugation; affixes used for derivation."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": false,
+      "aspect": true,
+      "mood": true,
+      "agreement": [],
+      "auxiliaries": true,
+      "notes": "Aspect and mood marked with particles and auxiliary verbs."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["informal", "polite", "formal"]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Indonesian",
+    "iso639p1": "id",
+    "family": {
+      "family": "Austronesian",
+      "subfamily": "Malayo-Polynesian",
+      "branch": "Malayic",
+      "subgroup": "Indonesian"
+    },
+    "syntax": {
+      "wordOrders": ["SVO"],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Indonesian is mostly SVO; allows null-subject pro-drop sentences."
+    },
+    "morphology": {
+      "typology": "analytic",
+      "inflection": false,
+      "conjugation": false,
+      "derivation": true,
+      "notes": "No verb conjugation; derivational affixes are common."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": false,
+      "aspect": true,
+      "mood": true,
+      "agreement": [],
+      "auxiliaries": true,
+      "notes": "Aspect and mood indicated by particles and auxiliaries."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["informal", "polite", "formal"]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  }
+]

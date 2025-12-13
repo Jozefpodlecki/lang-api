@@ -1,4 +1,4 @@
-use std::{env, fs::{self, read_dir, DirEntry, File}, io, path::{Path, PathBuf}};
+use std::{env, fs::{self, create_dir_all, read_dir}, io, path::{Path, PathBuf}};
 
 /// Returns the `target` directory for the current build.
 pub fn get_target_dir() -> PathBuf {
@@ -13,8 +13,9 @@ pub fn get_target_dir() -> PathBuf {
 }
 
 fn copy_dir_all(src: impl AsRef<Path>, dst: impl AsRef<Path>) -> io::Result<()> {
-    fs::create_dir_all(&dst)?;
-    for entry in fs::read_dir(src)? {
+    create_dir_all(&dst)?;
+    
+    for entry in read_dir(src)? {
         let entry = entry?;
         let ty = entry.file_type()?;
         if ty.is_dir() {
@@ -22,6 +23,7 @@ fn copy_dir_all(src: impl AsRef<Path>, dst: impl AsRef<Path>) -> io::Result<()> 
             println!("cargo:rerun-if-changed={}", entry.path().display());
         } else {
             fs::copy(entry.path(), dst.as_ref().join(entry.file_name()))?;
+            println!("cargo:rerun-if-changed={}", entry.path().display());
         }
     }
     Ok(())

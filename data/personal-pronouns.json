@@ -1,0 +1,32 @@
+[
+  {
+    "language": "en",
+    "singular": {
+      "first": "I",
+      "second": "you",
+      "third_m": "he",
+      "third_f": "she",
+      "third_n": "it"
+    },
+    "plural": {
+      "first": "we",
+      "second": "you",
+      "third": "they"
+    }
+  },
+  {
+    "language": "de",
+    "singular": {
+      "first": "ich",
+      "second": "du",
+      "third_m": "er",
+      "third_f": "sie",
+      "third_n": "es"
+    },
+    "plural": {
+      "first": "wir",
+      "second": "ihr",
+      "third": "sie"
+    }
+  }
+]

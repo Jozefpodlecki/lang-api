@@ -1,0 +1,257 @@
+[
+  {
+    "name": "Inuktitut",
+    "iso639p1": "iu",
+    "family": {
+      "family": "Eskimo–Aleut",
+      "subfamily": "Eskimo",
+      "branch": "Inuit",
+      "subgroup": "Inuktitut"
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": true,
+      "nullArguments": true,
+      "notes": "Polysynthetic, SOV word order, pro-drop."
+    },
+    "morphology": {
+      "typology": "polysynthetic",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Extensive incorporation of nouns and verbs into single words."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": ["nominative", "accusative", "genitive", "locative", "ablative", "allative", "instrumental"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number", "case"],
+      "auxiliaries": false,
+      "notes": "Verbs encode extensive information; auxiliaries rarely used."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": false,
+      "honorificLevels": []
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Canadian Aboriginal syllabics", "Latin"],
+      "direction": ["LTR"],
+      "alphabetic": false,
+      "abugida": true,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Kalaallisut",
+    "iso639p1": "kl",
+    "family": {
+      "family": "Eskimo–Aleut",
+      "subfamily": "Eskimo",
+      "branch": "Inuit",
+      "subgroup": "Kalaallisut"
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": true,
+      "nullArguments": true,
+      "notes": "Polysynthetic and agglutinative; flexible word order."
+    },
+    "morphology": {
+      "typology": "polysynthetic",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Rich verbal morphology; nouns can carry case and derivational morphemes."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": ["nominative", "accusative", "genitive", "locative", "ablative", "allative", "instrumental"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number", "case"],
+      "auxiliaries": false,
+      "notes": "Complex verb agreement system; auxiliaries not typical."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": false,
+      "honorificLevels": []
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Northern Sami",
+    "iso639p1": "se",
+    "family": {
+      "family": "Uralic",
+      "subfamily": "Finno-Ugric",
+      "branch": "Sami",
+      "subgroup": "Northern Sami"
+    },
+    "syntax": {
+      "wordOrders": ["SVO"],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": true,
+      "nullArguments": false,
+      "notes": "SVO order; flexible word order in subordinate clauses."
+    },
+    "morphology": {
+      "typology": "fusional",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Rich nominal and verbal inflection."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": ["nominative", "genitive", "accusative", "inessive", "elative", "illative", "allative", "ablative", "comitative", "essive", "partitive"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": true,
+      "notes": "Verbs mark tense, mood, person, and number; auxiliaries exist."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": false,
+      "politenessSystem": false,
+      "honorificLevels": []
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Chukchi",
+    "iso639p1": "ckl",
+    "family": {
+      "family": "Chukotko-Kamchatkan",
+      "subfamily": "Chukotkan",
+      "branch": "Chukchi"
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": true,
+      "nullArguments": true,
+      "notes": "Polysynthetic, agglutinative; flexible word order."
+    },
+    "morphology": {
+      "typology": "polysynthetic",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Verbs heavily inflected, often incorporating nouns."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": ["nominative", "accusative", "genitive", "dative", "locative", "ablative", "instrumental"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number", "case"],
+      "auxiliaries": false,
+      "notes": "Complex verbal morphology; no auxiliaries."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": false,
+      "honorificLevels": []
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Cyrillic"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  }
+]

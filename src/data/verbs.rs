@@ -1,8 +1,8 @@
 use futures::TryStreamExt;
-use mongodb::{bson::doc, options::ClientOptions, Client, Collection};
+use mongodb::{bson::doc, Client, Collection};
 use anyhow::*;
 
-use crate::models::{Pronouns, Verb};
+use crate::models::*;
 
 #[derive(Clone)]
 pub struct VerbsRepository {

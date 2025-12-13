@@ -1,18 +1,16 @@
-use axum::error_handling::HandleErrorLayer;
 use axum::extract::{Path, State};
 use axum::http::StatusCode;
 use axum::response::IntoResponse;
-use axum::Json;
 use axum::{routing::get, Router};
 use utoipa::{openapi, OpenApi};
 use utoipa_axum::router::OpenApiRouter;
 use utoipa_swagger_ui::SwaggerUi;
 
-use crate::models::Pronouns;
-use crate::routes::features::get_features;
+use crate::routes::language::get_language_metadata;
 use crate::routes::pronouns::get_personal_pronouns;
+use crate::routes::dictionary::get_lexical_entry;
 use crate::routes::verbs::get_verbs;
-use crate::{routes::*, state::AppState};
+use crate::state::AppState;
 
 #[derive(OpenApi)]
 #[openapi(
@@ -29,10 +27,10 @@ pub fn setup_routing(state: AppState) -> Router {
 
     let sub_router: OpenApiRouter = OpenApiRouter::new()
         .fallback(handler_404)
-        .route("/{lang}", get(get_features))
+        .route("/{lang}", get(get_language_metadata))
         .route("/{lang}/verbs", get(get_verbs))
         .route("/{lang}/personal-pronouns", get(get_personal_pronouns))
-        .route("/dictionary/{from}/{to}/{word}", get(get_features))
+        .route("/dictionary/{from}/{to}/{word}", get(get_lexical_entry))
         .with_state(state);
 
     let (router, api) = OpenApiRouter::with_openapi(ApiDoc::openapi())

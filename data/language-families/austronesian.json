@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Malay",
+    "iso639p1": "ms",
+    "family": {
+      "family": "Austronesian",
+      "subfamily": "Malayo-Polynesian",
+      "branch": "Malayic",
+      "subgroup": "Malay"
+    },
+    "syntax": {
+      "wordOrders": ["SVO"],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Malay allows SVO and pro-drop sentences."
+    },
+    "morphology": {
+      "typology": "analytic",
+      "inflection": false,
+      "conjugation": false,
+      "derivation": true,
+      "notes": "No verb conjugation; derivational affixes used."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": false,
+      "aspect": true,
+      "mood": true,
+      "agreement": [],
+      "auxiliaries": true,
+      "notes": "Aspect and mood marked with particles and auxiliary verbs."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["informal", "polite", "formal"]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Indonesian",
+    "iso639p1": "id",
+    "family": {
+      "family": "Austronesian",
+      "subfamily": "Malayo-Polynesian",
+      "branch": "Malayic",
+      "subgroup": "Indonesian"
+    },
+    "syntax": {
+      "wordOrders": ["SVO"],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Indonesian is mostly SVO; allows null-subject pro-drop sentences."
+    },
+    "morphology": {
+      "typology": "analytic",
+      "inflection": false,
+      "conjugation": false,
+      "derivation": true,
+      "notes": "No verb conjugation; derivational affixes are common."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": false,
+      "aspect": true,
+      "mood": true,
+      "agreement": [],
+      "auxiliaries": true,
+      "notes": "Aspect and mood indicated by particles and auxiliaries."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["informal", "polite", "formal"]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Tagalog",
+    "iso639p1": "tl",
+    "family": {
+      "family": "Austronesian",
+      "subfamily": "Malayo-Polynesian",
+      "branch": "Philippine",
+      "subgroup": "Tagalog"
+    },
+    "syntax": {
+      "wordOrders": ["VSO", "SVO"],
+      "dominantOrder": "VSO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": true,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Tagalog is topic-prominent; VSO or SVO depending on focus."
+    },
+    "morphology": {
+      "typology": "agglutinative",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Verbs marked for focus, aspect, mood."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": ["nominative", "genitive", "oblique"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": false,
+      "aspect": true,
+      "mood": true,
+      "agreement": [],
+      "auxiliaries": true,
+      "notes": "Uses verbal affixes for aspect and focus."
+    },
+    "discourse": {
+      "topicProminent": true,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["informal", "polite", "formal"]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  }
+]

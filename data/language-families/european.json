@@ -1,0 +1,672 @@
+[
+  {
+    "name": "English",
+    "iso639p1": "en",
+    "family": {
+      "family": "Indo-European",
+      "subfamily": "Germanic",
+      "branch": "West Germanic",
+      "group": "Anglo-Frisian",
+      "subgroup": "English"
+    },
+    "syntax": {
+      "wordOrders": [
+        "SVO"
+      ],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "conditional",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": false,
+      "notes": "English is primarily SVO; some flexibility exists for stylistic inversion."
+    },
+    "morphology": {
+      "typology": "analytic",
+      "inflection": false,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Minimal noun and verb inflection; mostly analytic."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": [],
+      "cases": [
+        "nominative",
+        "accusative",
+        "genitive",
+        "dative"
+      ],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": [
+        "person",
+        "number"
+      ],
+      "auxiliaries": true,
+      "notes": "Regular auxiliaries for tense and aspect; limited agreement on verbs."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": false,
+      "politenessSystem": false,
+      "honorificLevels": []
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": [
+        "Latin"
+      ],
+      "direction": [
+        "LTR"
+      ],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "German",
+    "iso639p1": "de",
+    "family": {
+      "family": "Indo-European",
+      "subfamily": "Germanic",
+      "branch": "West Germanic",
+      "group": "High German",
+      "subgroup": "Standard German"
+    },
+    "syntax": {
+      "wordOrders": [
+        "V2",
+        "SOV"
+      ],
+      "dominantOrder": "V2",
+      "headDirection": "mixed",
+      "flexibility": "conditional",
+      "verbSecond": true,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": true,
+      "nullArguments": false,
+      "notes": "German main clauses are V2; subordinate clauses are verb-final. Some scrambling allowed."
+    },
+    "morphology": {
+      "typology": "fusional",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Rich inflection for verbs, nouns, and adjectives."
+    },
+    "nominal": {
+      "grammaticalGender": true,
+      "genderTypes": [
+        "masculine",
+        "feminine",
+        "neuter"
+      ],
+      "cases": [
+        "nominative",
+        "accusative",
+        "dative",
+        "genitive"
+      ],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": false,
+      "mood": true,
+      "agreement": [
+        "person",
+        "number",
+        "gender"
+      ],
+      "auxiliaries": true,
+      "notes": "Strong agreement and auxiliaries for tense; aspect is not prominent."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": false,
+      "politenessSystem": true,
+      "honorificLevels": [
+        "formal",
+        "informal"
+      ]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": [
+        "Latin"
+      ],
+      "direction": [
+        "LTR"
+      ],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "French",
+    "iso639p1": "fr",
+    "family": {
+      "family": "Indo-European",
+      "subfamily": "Romance",
+      "branch": "Western Romance",
+      "group": "Gallo-Romance",
+      "subgroup": "French"
+    },
+    "syntax": {
+      "wordOrders": [
+        "SVO"
+      ],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": false,
+      "notes": "French is predominantly SVO; word order is important for meaning."
+    },
+    "morphology": {
+      "typology": "fusional",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Rich verb conjugation; nouns and adjectives inflect for gender and number."
+    },
+    "nominal": {
+      "grammaticalGender": true,
+      "genderTypes": [
+        "masculine",
+        "feminine"
+      ],
+      "cases": [
+        "nominative",
+        "oblique"
+      ],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": [
+        "person",
+        "number",
+        "gender"
+      ],
+      "auxiliaries": true,
+      "notes": "Verbs conjugate for tense, mood, and person; auxiliary verbs used for compound tenses."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": false,
+      "politenessSystem": true,
+      "honorificLevels": [
+        "formal",
+        "informal"
+      ]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": [
+        "Latin"
+      ],
+      "direction": [
+        "LTR"
+      ],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Spanish",
+    "iso639p1": "es",
+    "family": {
+      "family": "Indo-European",
+      "subfamily": "Romance",
+      "branch": "Western Romance",
+      "group": "Iberian Romance",
+      "subgroup": "Spanish"
+    },
+    "syntax": {
+      "wordOrders": [
+        "SVO",
+        "VSO"
+      ],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Spanish is mostly SVO but allows VSO in questions; null subjects are common (pro-drop)."
+    },
+    "morphology": {
+      "typology": "fusional",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Rich verb conjugation, nouns and adjectives agree in gender and number."
+    },
+    "nominal": {
+      "grammaticalGender": true,
+      "genderTypes": [
+        "masculine",
+        "feminine"
+      ],
+      "cases": [
+        "nominative",
+        "oblique"
+      ],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": [
+        "person",
+        "number",
+        "gender"
+      ],
+      "auxiliaries": true,
+      "notes": "Verbs conjugate extensively; auxiliary verbs used for compound tenses and perfective aspect."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": [
+        "formal",
+        "informal"
+      ]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": [
+        "Latin"
+      ],
+      "direction": [
+        "LTR"
+      ],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Italian",
+    "iso639p1": "it",
+    "family": {
+      "family": "Indo-European",
+      "subfamily": "Romance",
+      "branch": "Italo-Western Romance",
+      "group": "Italo-Dalmatian",
+      "subgroup": "Italian"
+    },
+    "syntax": {
+      "wordOrders": [
+        "SVO"
+      ],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Italian is primarily SVO and allows pro-drop."
+    },
+    "morphology": {
+      "typology": "fusional",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Rich verbal inflection; nouns and adjectives inflect for gender and number."
+    },
+    "nominal": {
+      "grammaticalGender": true,
+      "genderTypes": [
+        "masculine",
+        "feminine"
+      ],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": [
+        "person",
+        "number",
+        "gender"
+      ],
+      "auxiliaries": true,
+      "notes": "Extensive verb conjugation with auxiliary verbs."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": [
+        "formal",
+        "informal"
+      ]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": [
+        "Latin"
+      ],
+      "direction": [
+        "LTR"
+      ],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Portuguese",
+    "iso639p1": "pt",
+    "family": {
+      "family": "Indo-European",
+      "subfamily": "Romance",
+      "branch": "Western Romance",
+      "group": "Ibero-Romance",
+      "subgroup": "Portuguese"
+    },
+    "syntax": {
+      "wordOrders": [
+        "SVO"
+      ],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Portuguese is SVO and commonly pro-drop."
+    },
+    "morphology": {
+      "typology": "fusional",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Rich verb morphology with person and tense marking."
+    },
+    "nominal": {
+      "grammaticalGender": true,
+      "genderTypes": [
+        "masculine",
+        "feminine"
+      ],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": [
+        "person",
+        "number",
+        "gender"
+      ],
+      "auxiliaries": true,
+      "notes": "Auxiliary verbs used for compound tenses."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": [
+        "formal",
+        "informal"
+      ]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": [
+        "Latin"
+      ],
+      "direction": [
+        "LTR"
+      ],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Dutch",
+    "iso639p1": "nl",
+    "family": {
+      "family": "Indo-European",
+      "subfamily": "Germanic",
+      "branch": "West Germanic",
+      "group": "Low Franconian",
+      "subgroup": "Dutch"
+    },
+    "syntax": {
+      "wordOrders": [
+        "V2",
+        "SOV"
+      ],
+      "dominantOrder": "V2",
+      "headDirection": "mixed",
+      "flexibility": "conditional",
+      "verbSecond": true,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": false,
+      "scrambling": true,
+      "nullArguments": false,
+      "notes": "Dutch exhibits V2 in main clauses and verb-final order in subordinate clauses."
+    },
+    "morphology": {
+      "typology": "fusional",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Moderate inflection compared to German."
+    },
+    "nominal": {
+      "grammaticalGender": true,
+      "genderTypes": [
+        "common",
+        "neuter"
+      ],
+      "cases": [],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": false,
+      "mood": true,
+      "agreement": [
+        "person",
+        "number"
+      ],
+      "auxiliaries": true,
+      "notes": "Auxiliaries used for tense and passive constructions."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": false,
+      "politenessSystem": true,
+      "honorificLevels": [
+        "formal",
+        "informal"
+      ]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": [
+        "Latin"
+      ],
+      "direction": [
+        "LTR"
+      ],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "name": "Russian",
+    "iso639p1": "ru",
+    "family": {
+      "family": "Indo-European",
+      "subfamily": "Slavic",
+      "branch": "East Slavic",
+      "group": "Russian",
+      "subgroup": "Standard Russian"
+    },
+    "syntax": {
+      "wordOrders": [
+        "SVO",
+        "SOV",
+        "VSO"
+      ],
+      "dominantOrder": "SVO",
+      "headDirection": "head-final",
+      "flexibility": "high",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "variable",
+      "topicProminent": true,
+      "reliesOnWordOrder": false,
+      "scrambling": true,
+      "nullArguments": true,
+      "notes": "Russian has flexible word order due to rich case marking."
+    },
+    "morphology": {
+      "typology": "fusional",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Extensive noun case system and verb inflection."
+    },
+    "nominal": {
+      "grammaticalGender": true,
+      "genderTypes": [
+        "masculine",
+        "feminine",
+        "neuter"
+      ],
+      "cases": [
+        "nominative",
+        "accusative",
+        "genitive",
+        "dative",
+        "instrumental",
+        "locative"
+      ],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": [
+        "person",
+        "number",
+        "gender"
+      ],
+      "auxiliaries": false,
+      "notes": "Aspect is grammaticalized; fewer auxiliary verbs."
+    },
+    "discourse": {
+      "topicProminent": true,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": [
+        "formal",
+        "informal"
+      ]
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": [
+        "Cyrillic"
+      ],
+      "direction": [
+        "LTR"
+      ],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  }
+]
