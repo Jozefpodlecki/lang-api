@@ -4,7 +4,7 @@ use axum::Json;
 use crate::models::*;
 use crate::state::AppState;
 
-pub async fn get_language_metadata(State(state): State<AppState>, lang: Path<String>) -> Json<Option<LanguageFeatures>> {
+pub async fn get_language_metadata(State(state): State<AppState>, lang: Path<String>) -> Json<Option<LanguageProfile>> {
     
     let document = state.features.get(&lang).await.unwrap();
     

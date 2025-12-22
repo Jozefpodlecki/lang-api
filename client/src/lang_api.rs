@@ -15,7 +15,7 @@ impl LanguageApi {
         }
     }
 
-    pub async fn get_language_metadata(&self, iso639p1: &str) -> Result<LanguageProfile> {
+    pub async fn get_language_metadata(&self, iso639p1: &str) -> Result<Option<LanguageProfile>> {
         let url = format!("{}/api/v1/language/{}", self.base_url, iso639p1);
         
         let response = self.client.get(url).send().await?;

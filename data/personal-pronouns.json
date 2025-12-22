@@ -2,31 +2,118 @@
   {
     "language": "en",
     "singular": {
-      "first": "I",
-      "second": "you",
-      "third_m": "he",
-      "third_f": "she",
-      "third_n": "it"
+      "first": {
+        "native": "I",
+        "romanized": "I"
+      },
+      "second": {
+        "native": "you",
+        "romanized": "you"
+      },
+      "third_m": {
+        "native": "he",
+        "romanized": "he"
+      },
+      "third_f": {
+        "native": "she",
+        "romanized": "she"
+      },
+      "third_n": {
+        "native": "it",
+        "romanized": "it"
+      }
     },
     "plural": {
-      "first": "we",
-      "second": "you",
-      "third": "they"
+      "first": {
+        "native": "we",
+        "romanized": "we"
+      },
+      "second": {
+        "native": "you",
+        "romanized": "you"
+      },
+      "third": {
+        "native": "they",
+        "romanized": "they"
+      }
     }
   },
   {
     "language": "de",
     "singular": {
-      "first": "ich",
-      "second": "du",
-      "third_m": "er",
-      "third_f": "sie",
-      "third_n": "es"
+      "first": {
+        "native": "ich",
+        "romanized": "ich"
+      },
+      "second": {
+        "native": "du",
+        "romanized": "du"
+      },
+      "third_m": {
+        "native": "er",
+        "romanized": "er"
+      },
+      "third_f": {
+        "native": "sie",
+        "romanized": "sie"
+      },
+      "third_n": {
+        "native": "es",
+        "romanized": "es"
+      }
     },
     "plural": {
-      "first": "wir",
-      "second": "ihr",
-      "third": "sie"
+      "first": {
+        "native": "wir",
+        "romanized": "wir"
+      },
+      "second": {
+        "native": "ihr",
+        "romanized": "ihr"
+      },
+      "third": {
+        "native": "sie",
+        "romanized": "sie"
+      }
+    }
+  },
+  {
+    "language": "hi",
+    "singular": {
+      "first": {
+        "native": "मैं",
+        "romanized": "main"
+      },
+      "second": {
+        "native": "तुम",
+        "romanized": "tum"
+      },
+      "third_m": {
+        "native": "वह",
+        "romanized": "vah"
+      },
+      "third_f": {
+        "native": "वह",
+        "romanized": "vah"
+      },
+      "third_n": {
+        "native": "यह",
+        "romanized": "yah"
+      }
+    },
+    "plural": {
+      "first": {
+        "native": "हम",
+        "romanized": "ham"
+      },
+      "second": {
+        "native": "आप",
+        "romanized": "aap"
+      },
+      "third": {
+        "native": "वे",
+        "romanized": "ve"
+      }
     }
   }
 ]

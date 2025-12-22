@@ -1,5 +1,473 @@
 [
   {
+  "iso639p1": "uk",
+  "name": "Ukrainian",
+  "family": {
+    "family": "Indo-European",
+    "subfamily": "Slavic",
+    "branch": "East Slavic",
+    "group": null,
+    "subgroup": null
+  },
+  "syntax": {
+    "wordOrders": ["SVO", "SOV"],
+    "dominantOrder": "SVO",
+    "headDirection": "head-initial",
+    "flexibility": "high",
+    "verbSecond": false,
+    "subordinateClauseVerbPosition": "initial",
+    "topicProminent": false,
+    "reliesOnWordOrder": false,
+    "scrambling": true,
+    "nullArguments": false,
+    "notes": "Flexible word order due to rich case system; typically SVO but can be SOV in some contexts."
+  },
+  "morphology": {
+    "typology": "fusional",
+    "inflection": true,
+    "conjugation": true,
+    "derivation": true,
+    "notes": "Highly inflected for nouns, adjectives, and verbs; fusional morphology typical of Slavic languages."
+  },
+  "nominal": {
+    "grammaticalGender": true,
+    "genderTypes": ["masculine", "feminine", "neuter"],
+    "cases": ["nominative", "genitive", "dative", "accusative", "instrumental", "locative", "vocative"],
+    "classifiers": false,
+    "classifierType": null
+  },
+  "verbal": {
+    "tense": true,
+    "aspect": true,
+    "mood": true,
+    "agreement": ["person", "number", "gender"],
+    "auxiliaries": true,
+    "notes": "Verbs mark tense, aspect, mood, and agree with the subject; auxiliary verbs used in compound tenses."
+  },
+  "discourse": {
+    "topicProminent": false,
+    "proDrop": false,
+    "politenessSystem": false,
+    "honorificLevels": null
+  },
+  "phonology": {
+    "tonal": false,
+    "toneCount": 0,
+    "pitchAccent": false,
+    "stress": true
+  },
+  "writing": {
+    "scripts": ["Cyrillic"],
+    "direction": ["LTR"],
+    "alphabetic": true,
+    "abugida": false,
+    "logographic": false
+  }
+}
+,
+  {
+  "iso639p1": "co",
+  "name": "Corsican",
+  "family": {
+    "family": "Indo-European",
+    "subfamily": "Romance",
+    "branch": "Italo-Dalmatian",
+    "group": null,
+    "subgroup": null
+  },
+  "syntax": {
+    "wordOrders": ["SVO"],
+    "dominantOrder": "SVO",
+    "headDirection": "head-initial",
+    "flexibility": "moderate",
+    "verbSecond": false,
+    "subordinateClauseVerbPosition": "initial",
+    "topicProminent": false,
+    "reliesOnWordOrder": true,
+    "scrambling": false,
+    "nullArguments": false,
+    "notes": "Standard Romance SVO word order with moderate flexibility in subordinate clauses."
+  },
+  "morphology": {
+    "typology": "fusional",
+    "inflection": true,
+    "conjugation": true,
+    "derivation": true,
+    "notes": "Rich inflectional morphology typical of Romance languages; verbs conjugate for tense, person, and number."
+  },
+  "nominal": {
+    "grammaticalGender": true,
+    "genderTypes": ["masculine", "feminine"],
+    "cases": ["nominative", "oblique"],
+    "classifiers": false,
+    "classifierType": null
+  },
+  "verbal": {
+    "tense": true,
+    "aspect": true,
+    "mood": true,
+    "agreement": ["person", "number"],
+    "auxiliaries": true,
+    "notes": "Uses auxiliaries in compound tenses; verbs agree with subjects in person and number."
+  },
+  "discourse": {
+    "topicProminent": false,
+    "proDrop": false,
+    "politenessSystem": false,
+    "honorificLevels": null
+  },
+  "phonology": {
+    "tonal": false,
+    "toneCount": 0,
+    "pitchAccent": false,
+    "stress": true
+  },
+  "writing": {
+    "scripts": ["Latin"],
+    "direction": ["LTR"],
+    "alphabetic": true,
+    "abugida": false,
+    "logographic": false
+  }
+}
+,
+  {
+  "iso639p1": "cs",
+  "name": "Czech",
+  "family": {
+    "family": "Indo-European",
+    "subfamily": "Slavic",
+    "branch": "West Slavic",
+    "group": null,
+    "subgroup": null
+  },
+  "syntax": {
+    "wordOrders": ["SVO"],
+    "dominantOrder": "SVO",
+    "headDirection": "head-initial",
+    "flexibility": "high",
+    "verbSecond": false,
+    "subordinateClauseVerbPosition": "initial",
+    "topicProminent": false,
+    "reliesOnWordOrder": true,
+    "scrambling": true,
+    "nullArguments": false,
+    "notes": "SVO word order is dominant, but flexible due to rich case system; scrambling allowed for emphasis."
+  },
+  "morphology": {
+    "typology": "fusional",
+    "inflection": true,
+    "conjugation": true,
+    "derivation": true,
+    "notes": "Highly inflected for nouns, verbs, and adjectives; rich morphology typical of Slavic languages."
+  },
+  "nominal": {
+    "grammaticalGender": true,
+    "genderTypes": ["masculine", "feminine", "neuter"],
+    "cases": ["nominative", "genitive", "dative", "accusative", "vocative", "locative", "instrumental"],
+    "classifiers": false,
+    "classifierType": null
+  },
+  "verbal": {
+    "tense": true,
+    "aspect": true,
+    "mood": true,
+    "agreement": ["person", "number", "gender"],
+    "auxiliaries": true,
+    "notes": "Verbs mark tense, aspect, mood, and agree with subject; auxiliaries used in compound tenses."
+  },
+  "discourse": {
+    "topicProminent": false,
+    "proDrop": false,
+    "politenessSystem": false,
+    "honorificLevels": null
+  },
+  "phonology": {
+    "tonal": false,
+    "toneCount": 0,
+    "pitchAccent": false,
+    "stress": true
+  },
+  "writing": {
+    "scripts": ["Latin"],
+    "direction": ["LTR"],
+    "alphabetic": true,
+    "abugida": false,
+    "logographic": false
+  }
+}
+,
+  {
+  "iso639p1": "yi",
+  "name": "Yiddish",
+  "family": {
+    "family": "Indo-European",
+    "subfamily": "Germanic",
+    "branch": "West Germanic",
+    "group": null,
+    "subgroup": null
+  },
+  "syntax": {
+    "wordOrders": ["SVO"],
+    "dominantOrder": "SVO",
+    "headDirection": "head-initial",
+    "flexibility": "moderate",
+    "verbSecond": true,
+    "subordinateClauseVerbPosition": "final",
+    "topicProminent": false,
+    "reliesOnWordOrder": true,
+    "scrambling": false,
+    "nullArguments": false,
+    "notes": "Standard West Germanic SVO order; V2 in main clauses."
+  },
+  "morphology": {
+    "typology": "fusional",
+    "inflection": true,
+    "conjugation": true,
+    "derivation": true,
+    "notes": "Nouns inflected for gender and number; verbs conjugate for person, number, and tense."
+  },
+  "nominal": {
+    "grammaticalGender": true,
+    "genderTypes": ["masculine", "feminine", "neuter"],
+    "cases": ["nominative", "accusative", "dative", "genitive"],
+    "classifiers": false,
+    "classifierType": null
+  },
+  "verbal": {
+    "tense": true,
+    "aspect": true,
+    "mood": true,
+    "agreement": ["person", "number", "gender"],
+    "auxiliaries": true,
+    "notes": "Auxiliary verbs used in compound tenses; verbs agree with subject in person, number, and gender."
+  },
+  "discourse": {
+    "topicProminent": false,
+    "proDrop": false,
+    "politenessSystem": false,
+    "honorificLevels": null
+  },
+  "phonology": {
+    "tonal": false,
+    "toneCount": 0,
+    "pitchAccent": false,
+    "stress": true
+  },
+  "writing": {
+    "scripts": ["Hebrew"],
+    "direction": ["RTL"],
+    "alphabetic": true,
+    "abugida": false,
+    "logographic": false
+  }
+}
+,
+  {
+  "iso639p1": "wa",
+  "name": "Walloon",
+  "family": {
+    "family": "Indo-European",
+    "subfamily": "Romance",
+    "branch": "Gallo-Romance",
+    "group": null,
+    "subgroup": null
+  },
+  "syntax": {
+    "wordOrders": ["SVO"],
+    "dominantOrder": "SVO",
+    "headDirection": "head-initial",
+    "flexibility": "moderate",
+    "verbSecond": false,
+    "subordinateClauseVerbPosition": "initial",
+    "topicProminent": false,
+    "reliesOnWordOrder": true,
+    "scrambling": false,
+    "nullArguments": false,
+    "notes": "Standard Romance SVO order; some flexibility in subordinate clauses."
+  },
+  "morphology": {
+    "typology": "fusional",
+    "inflection": true,
+    "conjugation": true,
+    "derivation": true,
+    "notes": "Rich verb conjugation and noun morphology; typical of Romance languages."
+  },
+  "nominal": {
+    "grammaticalGender": true,
+    "genderTypes": ["masculine", "feminine"],
+    "cases": ["nominative", "oblique"],
+    "classifiers": false,
+    "classifierType": null
+  },
+  "verbal": {
+    "tense": true,
+    "aspect": true,
+    "mood": true,
+    "agreement": ["person", "number"],
+    "auxiliaries": true,
+    "notes": "Uses auxiliaries in compound tenses; verbs agree in person and number."
+  },
+  "discourse": {
+    "topicProminent": false,
+    "proDrop": false,
+    "politenessSystem": false,
+    "honorificLevels": null
+  },
+  "phonology": {
+    "tonal": false,
+    "toneCount": 0,
+    "pitchAccent": false,
+    "stress": true
+  },
+  "writing": {
+    "scripts": ["Latin"],
+    "direction": ["LTR"],
+    "alphabetic": true,
+    "abugida": false,
+    "logographic": false
+  }
+}
+,
+{
+  "iso639p1": "cy",
+  "name": "Welsh",
+  "family": {
+    "family": "Indo-European",
+    "subfamily": "Celtic",
+    "branch": "Brythonic",
+    "group": null,
+    "subgroup": null
+  },
+  "syntax": {
+    "wordOrders": ["VSO"],
+    "dominantOrder": "VSO",
+    "headDirection": "head-initial",
+    "flexibility": "moderate",
+    "verbSecond": false,
+    "subordinateClauseVerbPosition": "initial",
+    "topicProminent": false,
+    "reliesOnWordOrder": true,
+    "scrambling": true,
+    "nullArguments": false,
+    "notes": "Welsh is primarily VSO but allows some word order variation; uses prepositions with nouns."
+  },
+  "morphology": {
+    "typology": "fusional",
+    "inflection": true,
+    "conjugation": true,
+    "derivation": true,
+    "notes": "Verbs conjugate for tense, person, and number; mutations affect initial consonants of words."
+  },
+  "nominal": {
+    "grammaticalGender": true,
+    "genderTypes": ["masculine", "feminine"],
+    "cases": ["nominative", "genitive"],
+    "classifiers": false,
+    "classifierType": null
+  },
+  "verbal": {
+    "tense": true,
+    "aspect": true,
+    "mood": true,
+    "agreement": ["person", "number"],
+    "auxiliaries": true,
+    "notes": "Verbs agree with subject; auxiliary verbs used in compound tenses and periphrastic forms."
+  },
+  "discourse": {
+    "topicProminent": false,
+    "proDrop": false,
+    "politenessSystem": false,
+    "honorificLevels": null
+  },
+  "phonology": {
+    "tonal": false,
+    "toneCount": 0,
+    "pitchAccent": false,
+    "stress": true
+  },
+  "writing": {
+    "scripts": ["Latin"],
+    "direction": ["LTR"],
+    "alphabetic": true,
+    "abugida": false,
+    "logographic": false
+  }
+}
+,
+  {
+    "iso639p1": "sq",
+    "name": "Albanian",
+    "family": {
+      "family": "Indo-European",
+      "subfamily": "Albanian",
+      "branch": null,
+      "group": null,
+      "subgroup": null
+    },
+    "syntax": {
+      "wordOrders": ["SVO"],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": true,
+      "nullArguments": false,
+      "notes": "Albanian generally follows SVO word order but allows scrambling for emphasis."
+    },
+    "morphology": {
+      "typology": "fusional",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Nouns and verbs are inflected; rich morphology with case marking and agreement."
+    },
+    "nominal": {
+      "grammaticalGender": true,
+      "genderTypes": ["masculine", "feminine", "neuter"],
+      "cases": [
+        "nominative",
+        "genitive",
+        "dative",
+        "accusative",
+        "ablative",
+        "vocative"
+      ],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": true,
+      "notes": "Verbs mark tense, aspect, mood; auxiliaries used in compound tenses."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": false,
+      "politenessSystem": false,
+      "honorificLevels": null
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
     "name": "English",
     "iso639p1": "en",
     "family": {
@@ -10,9 +478,7 @@
       "subgroup": "English"
     },
     "syntax": {
-      "wordOrders": [
-        "SVO"
-      ],
+      "wordOrders": ["SVO"],
       "dominantOrder": "SVO",
       "headDirection": "head-initial",
       "flexibility": "conditional",
@@ -34,12 +500,7 @@
     "nominal": {
       "grammaticalGender": false,
       "genderTypes": [],
-      "cases": [
-        "nominative",
-        "accusative",
-        "genitive",
-        "dative"
-      ],
+      "cases": ["nominative", "accusative", "genitive", "dative"],
       "classifiers": false,
       "classifierType": null
     },
@@ -47,10 +508,7 @@
       "tense": true,
       "aspect": true,
       "mood": true,
-      "agreement": [
-        "person",
-        "number"
-      ],
+      "agreement": ["person", "number"],
       "auxiliaries": true,
       "notes": "Regular auxiliaries for tense and aspect; limited agreement on verbs."
     },
@@ -67,12 +525,8 @@
       "stress": true
     },
     "writing": {
-      "scripts": [
-        "Latin"
-      ],
-      "direction": [
-        "LTR"
-      ],
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
       "alphabetic": true,
       "abugida": false,
       "logographic": false
@@ -89,10 +543,7 @@
       "subgroup": "Standard German"
     },
     "syntax": {
-      "wordOrders": [
-        "V2",
-        "SOV"
-      ],
+      "wordOrders": ["V2", "SOV"],
       "dominantOrder": "V2",
       "headDirection": "mixed",
       "flexibility": "conditional",
@@ -113,17 +564,8 @@
     },
     "nominal": {
       "grammaticalGender": true,
-      "genderTypes": [
-        "masculine",
-        "feminine",
-        "neuter"
-      ],
-      "cases": [
-        "nominative",
-        "accusative",
-        "dative",
-        "genitive"
-      ],
+      "genderTypes": ["masculine", "feminine", "neuter"],
+      "cases": ["nominative", "accusative", "dative", "genitive"],
       "classifiers": false,
       "classifierType": null
     },
@@ -131,11 +573,7 @@
       "tense": true,
       "aspect": false,
       "mood": true,
-      "agreement": [
-        "person",
-        "number",
-        "gender"
-      ],
+      "agreement": ["person", "number", "gender"],
       "auxiliaries": true,
       "notes": "Strong agreement and auxiliaries for tense; aspect is not prominent."
     },
@@ -143,10 +581,7 @@
       "topicProminent": false,
       "proDrop": false,
       "politenessSystem": true,
-      "honorificLevels": [
-        "formal",
-        "informal"
-      ]
+      "honorificLevels": ["formal", "informal"]
     },
     "phonology": {
       "tonal": false,
@@ -155,12 +590,8 @@
       "stress": true
     },
     "writing": {
-      "scripts": [
-        "Latin"
-      ],
-      "direction": [
-        "LTR"
-      ],
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
       "alphabetic": true,
       "abugida": false,
       "logographic": false
@@ -177,9 +608,7 @@
       "subgroup": "French"
     },
     "syntax": {
-      "wordOrders": [
-        "SVO"
-      ],
+      "wordOrders": ["SVO"],
       "dominantOrder": "SVO",
       "headDirection": "head-initial",
       "flexibility": "moderate",
@@ -200,14 +629,8 @@
     },
     "nominal": {
       "grammaticalGender": true,
-      "genderTypes": [
-        "masculine",
-        "feminine"
-      ],
-      "cases": [
-        "nominative",
-        "oblique"
-      ],
+      "genderTypes": ["masculine", "feminine"],
+      "cases": ["nominative", "oblique"],
       "classifiers": false,
       "classifierType": null
     },
@@ -215,11 +638,7 @@
       "tense": true,
       "aspect": true,
       "mood": true,
-      "agreement": [
-        "person",
-        "number",
-        "gender"
-      ],
+      "agreement": ["person", "number", "gender"],
       "auxiliaries": true,
       "notes": "Verbs conjugate for tense, mood, and person; auxiliary verbs used for compound tenses."
     },
@@ -227,10 +646,7 @@
       "topicProminent": false,
       "proDrop": false,
       "politenessSystem": true,
-      "honorificLevels": [
-        "formal",
-        "informal"
-      ]
+      "honorificLevels": ["formal", "informal"]
     },
     "phonology": {
       "tonal": false,
@@ -239,12 +655,8 @@
       "stress": true
     },
     "writing": {
-      "scripts": [
-        "Latin"
-      ],
-      "direction": [
-        "LTR"
-      ],
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
       "alphabetic": true,
       "abugida": false,
       "logographic": false
@@ -261,10 +673,7 @@
       "subgroup": "Spanish"
     },
     "syntax": {
-      "wordOrders": [
-        "SVO",
-        "VSO"
-      ],
+      "wordOrders": ["SVO", "VSO"],
       "dominantOrder": "SVO",
       "headDirection": "head-initial",
       "flexibility": "moderate",
@@ -285,14 +694,8 @@
     },
     "nominal": {
       "grammaticalGender": true,
-      "genderTypes": [
-        "masculine",
-        "feminine"
-      ],
-      "cases": [
-        "nominative",
-        "oblique"
-      ],
+      "genderTypes": ["masculine", "feminine"],
+      "cases": ["nominative", "oblique"],
       "classifiers": false,
       "classifierType": null
     },
@@ -300,11 +703,7 @@
       "tense": true,
       "aspect": true,
       "mood": true,
-      "agreement": [
-        "person",
-        "number",
-        "gender"
-      ],
+      "agreement": ["person", "number", "gender"],
       "auxiliaries": true,
       "notes": "Verbs conjugate extensively; auxiliary verbs used for compound tenses and perfective aspect."
     },
@@ -312,10 +711,7 @@
       "topicProminent": false,
       "proDrop": true,
       "politenessSystem": true,
-      "honorificLevels": [
-        "formal",
-        "informal"
-      ]
+      "honorificLevels": ["formal", "informal"]
     },
     "phonology": {
       "tonal": false,
@@ -324,12 +720,8 @@
       "stress": true
     },
     "writing": {
-      "scripts": [
-        "Latin"
-      ],
-      "direction": [
-        "LTR"
-      ],
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
       "alphabetic": true,
       "abugida": false,
       "logographic": false
@@ -346,9 +738,7 @@
       "subgroup": "Italian"
     },
     "syntax": {
-      "wordOrders": [
-        "SVO"
-      ],
+      "wordOrders": ["SVO"],
       "dominantOrder": "SVO",
       "headDirection": "head-initial",
       "flexibility": "moderate",
@@ -369,10 +759,7 @@
     },
     "nominal": {
       "grammaticalGender": true,
-      "genderTypes": [
-        "masculine",
-        "feminine"
-      ],
+      "genderTypes": ["masculine", "feminine"],
       "cases": [],
       "classifiers": false,
       "classifierType": null
@@ -381,11 +768,7 @@
       "tense": true,
       "aspect": true,
       "mood": true,
-      "agreement": [
-        "person",
-        "number",
-        "gender"
-      ],
+      "agreement": ["person", "number", "gender"],
       "auxiliaries": true,
       "notes": "Extensive verb conjugation with auxiliary verbs."
     },
@@ -393,10 +776,7 @@
       "topicProminent": false,
       "proDrop": true,
       "politenessSystem": true,
-      "honorificLevels": [
-        "formal",
-        "informal"
-      ]
+      "honorificLevels": ["formal", "informal"]
     },
     "phonology": {
       "tonal": false,
@@ -405,12 +785,8 @@
       "stress": true
     },
     "writing": {
-      "scripts": [
-        "Latin"
-      ],
-      "direction": [
-        "LTR"
-      ],
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
       "alphabetic": true,
       "abugida": false,
       "logographic": false
@@ -427,9 +803,7 @@
       "subgroup": "Portuguese"
     },
     "syntax": {
-      "wordOrders": [
-        "SVO"
-      ],
+      "wordOrders": ["SVO"],
       "dominantOrder": "SVO",
       "headDirection": "head-initial",
       "flexibility": "moderate",
@@ -450,10 +824,7 @@
     },
     "nominal": {
       "grammaticalGender": true,
-      "genderTypes": [
-        "masculine",
-        "feminine"
-      ],
+      "genderTypes": ["masculine", "feminine"],
       "cases": [],
       "classifiers": false,
       "classifierType": null
@@ -462,11 +833,7 @@
       "tense": true,
       "aspect": true,
       "mood": true,
-      "agreement": [
-        "person",
-        "number",
-        "gender"
-      ],
+      "agreement": ["person", "number", "gender"],
       "auxiliaries": true,
       "notes": "Auxiliary verbs used for compound tenses."
     },
@@ -474,10 +841,7 @@
       "topicProminent": false,
       "proDrop": true,
       "politenessSystem": true,
-      "honorificLevels": [
-        "formal",
-        "informal"
-      ]
+      "honorificLevels": ["formal", "informal"]
     },
     "phonology": {
       "tonal": false,
@@ -486,12 +850,8 @@
       "stress": true
     },
     "writing": {
-      "scripts": [
-        "Latin"
-      ],
-      "direction": [
-        "LTR"
-      ],
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
       "alphabetic": true,
       "abugida": false,
       "logographic": false
@@ -508,10 +868,7 @@
       "subgroup": "Dutch"
     },
     "syntax": {
-      "wordOrders": [
-        "V2",
-        "SOV"
-      ],
+      "wordOrders": ["V2", "SOV"],
       "dominantOrder": "V2",
       "headDirection": "mixed",
       "flexibility": "conditional",
@@ -532,10 +889,7 @@
     },
     "nominal": {
       "grammaticalGender": true,
-      "genderTypes": [
-        "common",
-        "neuter"
-      ],
+      "genderTypes": ["common", "neuter"],
       "cases": [],
       "classifiers": false,
       "classifierType": null
@@ -544,10 +898,7 @@
       "tense": true,
       "aspect": false,
       "mood": true,
-      "agreement": [
-        "person",
-        "number"
-      ],
+      "agreement": ["person", "number"],
       "auxiliaries": true,
       "notes": "Auxiliaries used for tense and passive constructions."
     },
@@ -555,10 +906,7 @@
       "topicProminent": false,
       "proDrop": false,
       "politenessSystem": true,
-      "honorificLevels": [
-        "formal",
-        "informal"
-      ]
+      "honorificLevels": ["formal", "informal"]
     },
     "phonology": {
       "tonal": false,
@@ -567,12 +915,8 @@
       "stress": true
     },
     "writing": {
-      "scripts": [
-        "Latin"
-      ],
-      "direction": [
-        "LTR"
-      ],
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
       "alphabetic": true,
       "abugida": false,
       "logographic": false
@@ -589,11 +933,7 @@
       "subgroup": "Standard Russian"
     },
     "syntax": {
-      "wordOrders": [
-        "SVO",
-        "SOV",
-        "VSO"
-      ],
+      "wordOrders": ["SVO", "SOV", "VSO"],
       "dominantOrder": "SVO",
       "headDirection": "head-final",
       "flexibility": "high",
@@ -614,11 +954,7 @@
     },
     "nominal": {
       "grammaticalGender": true,
-      "genderTypes": [
-        "masculine",
-        "feminine",
-        "neuter"
-      ],
+      "genderTypes": ["masculine", "feminine", "neuter"],
       "cases": [
         "nominative",
         "accusative",
@@ -634,11 +970,7 @@
       "tense": true,
       "aspect": true,
       "mood": true,
-      "agreement": [
-        "person",
-        "number",
-        "gender"
-      ],
+      "agreement": ["person", "number", "gender"],
       "auxiliaries": false,
       "notes": "Aspect is grammaticalized; fewer auxiliary verbs."
     },
@@ -646,10 +978,7 @@
       "topicProminent": true,
       "proDrop": true,
       "politenessSystem": true,
-      "honorificLevels": [
-        "formal",
-        "informal"
-      ]
+      "honorificLevels": ["formal", "informal"]
     },
     "phonology": {
       "tonal": false,
@@ -658,12 +987,8 @@
       "stress": true
     },
     "writing": {
-      "scripts": [
-        "Cyrillic"
-      ],
-      "direction": [
-        "LTR"
-      ],
+      "scripts": ["Cyrillic"],
+      "direction": ["LTR"],
       "alphabetic": true,
       "abugida": false,
       "logographic": false

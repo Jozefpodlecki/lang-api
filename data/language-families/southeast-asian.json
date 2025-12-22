@@ -1,5 +1,137 @@
 [
   {
+    "iso639p1": "zh",
+    "name": "Mandarin Chinese",
+    "family": {
+      "family": "Sino-Tibetan",
+      "subfamily": "Sinitic",
+      "branch": "Mandarin",
+      "group": null,
+      "subgroup": null
+    },
+    "syntax": {
+      "wordOrders": ["SVO"],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": true,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": true,
+      "notes": "Mandarin is SVO, topic-prominent, allows null subjects and objects."
+    },
+    "morphology": {
+      "typology": "analytic",
+      "inflection": false,
+      "conjugation": false,
+      "derivation": true,
+      "notes": "Highly analytic; no verb conjugation, nouns uninflected for case or number."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": null,
+      "cases": null,
+      "classifiers": true,
+      "classifierType": "numeral",
+      "notes": "Uses numeral classifiers when counting nouns."
+    },
+    "verbal": {
+      "tense": false,
+      "aspect": true,
+      "mood": true,
+      "agreement": null,
+      "auxiliaries": true,
+      "notes": "Tense not marked; aspect and mood often expressed via particles and auxiliaries."
+    },
+    "discourse": {
+      "topicProminent": true,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["neutral", "polite", "formal"]
+    },
+    "phonology": {
+      "tonal": true,
+      "toneCount": 4,
+      "pitchAccent": false,
+      "stress": false
+    },
+    "writing": {
+      "scripts": ["Simplified Chinese", "Traditional Chinese"],
+      "direction": ["LTR"],
+      "alphabetic": false,
+      "abugida": false,
+      "logographic": true
+    }
+  },
+  {
+    "iso639p1": "za",
+    "name": "Zhuang",
+    "family": {
+      "family": "Kra-Dai",
+      "subfamily": "Tai",
+      "branch": "Northern Tai",
+      "group": null,
+      "subgroup": null
+    },
+    "syntax": {
+      "wordOrders": ["SVO"],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": false,
+      "notes": "Standard SVO order with some flexibility in complex sentences."
+    },
+    "morphology": {
+      "typology": "analytic",
+      "inflection": false,
+      "conjugation": false,
+      "derivation": true,
+      "notes": "Mostly analytic; uses derivational morphology for nominal and verbal modification."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": null,
+      "cases": null,
+      "classifiers": true,
+      "classifierType": "numeral",
+      "notes": "Uses numeral classifiers for counting nouns."
+    },
+    "verbal": {
+      "tense": false,
+      "aspect": true,
+      "mood": true,
+      "agreement": null,
+      "auxiliaries": true,
+      "notes": "Tense is marked periphrastically with auxiliaries; verbs do not inflect for person."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": false,
+      "honorificLevels": null
+    },
+    "phonology": {
+      "tonal": true,
+      "toneCount": 6,
+      "pitchAccent": false,
+      "stress": false
+    },
+    "writing": {
+      "scripts": ["Latin", "Traditional Chinese"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
     "name": "Vietnamese",
     "iso639p1": "vi",
     "family": {

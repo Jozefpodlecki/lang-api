@@ -1,5 +1,331 @@
 [
   {
+  "iso639p1": "zu",
+  "name": "Zulu",
+  "family": {
+    "family": "Niger-Congo",
+    "subfamily": "Atlantic-Congo",
+    "branch": "Bantu",
+    "group": null,
+    "subgroup": null
+  },
+  "syntax": {
+    "wordOrders": ["SVO"],
+    "dominantOrder": "SVO",
+    "headDirection": "head-initial",
+    "flexibility": "moderate",
+    "verbSecond": false,
+    "subordinateClauseVerbPosition": "initial",
+    "topicProminent": false,
+    "reliesOnWordOrder": true,
+    "scrambling": false,
+    "nullArguments": true,
+    "notes": "SVO word order with moderate flexibility; allows null arguments in context."
+  },
+  "morphology": {
+    "typology": "agglutinative",
+    "inflection": true,
+    "conjugation": true,
+    "derivation": true,
+    "notes": "Rich verb morphology; uses prefixes and suffixes to indicate tense, aspect, and agreement."
+  },
+  "nominal": {
+    "grammaticalGender": true,
+    "genderTypes": ["noun class system"],
+    "cases": null,
+    "classifiers": false,
+    "classifierType": null
+  },
+  "verbal": {
+    "tense": true,
+    "aspect": true,
+    "mood": true,
+    "agreement": ["noun class"],
+    "auxiliaries": false,
+    "notes": "Verbs agree with subjects and objects via noun class prefixes; auxiliaries not commonly used."
+  },
+  "discourse": {
+    "topicProminent": false,
+    "proDrop": true,
+    "politenessSystem": false,
+    "honorificLevels": null
+  },
+  "phonology": {
+    "tonal": true,
+    "toneCount": 2,
+    "pitchAccent": false,
+    "stress": true
+  },
+  "writing": {
+    "scripts": ["Latin"],
+    "direction": ["LTR"],
+    "alphabetic": true,
+    "abugida": false,
+    "logographic": false
+  }
+}
+,
+  {
+    "iso639p1": "am",
+    "name": "Amharic",
+    "family": {
+      "family": "Afro-Asiatic",
+      "subfamily": "Semitic",
+      "branch": "South Semitic",
+      "group": null,
+      "subgroup": null
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": false,
+      "notes": "Typical Ethiopian Semitic SOV structure with moderate word-order flexibility."
+    },
+    "morphology": {
+      "typology": "fusional",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Verbs marked for tense, aspect, mood, and subject agreement; rich noun morphology."
+    },
+    "nominal": {
+      "grammaticalGender": true,
+      "genderTypes": ["masculine", "feminine"],
+      "cases": ["nominative", "accusative", "genitive", "dative"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number", "gender"],
+      "auxiliaries": false,
+      "notes": "Verbs agree with subject in person, number, and gender; auxiliaries not required."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": true,
+      "politenessSystem": false,
+      "honorificLevels": null
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Geʽez"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": true,
+      "logographic": false
+    }
+  },
+  {
+    "iso639p1": "ak",
+    "name": "Akan",
+    "family": {
+      "family": "Niger-Congo",
+      "subfamily": "Atlantic-Congo",
+      "branch": "Kwa",
+      "group": null,
+      "subgroup": null
+    },
+    "syntax": {
+      "wordOrders": ["SVO"],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "initial",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": false,
+      "notes": "SVO structure with moderate word-order flexibility typical of Kwa languages."
+    },
+    "morphology": {
+      "typology": "agglutinative",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Verbs marked for tense, aspect, and mood; derivational affixes common."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": null,
+      "cases": null,
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": false,
+      "notes": "Verbs agree with subject; no auxiliary verbs required for tense."
+    },
+    "discourse": {
+      "topicProminent": true,
+      "proDrop": true,
+      "politenessSystem": false,
+      "honorificLevels": null
+    },
+    "phonology": {
+      "tonal": true,
+      "toneCount": 2,
+      "pitchAccent": false,
+      "stress": false
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "iso639p1": "af",
+    "name": "Afrikaans",
+    "family": {
+      "family": "Indo-European",
+      "subfamily": "Germanic",
+      "branch": "West Germanic",
+      "group": null,
+      "subgroup": null
+    },
+    "syntax": {
+      "wordOrders": ["SVO"],
+      "dominantOrder": "SVO",
+      "headDirection": "head-initial",
+      "flexibility": "fixed",
+      "verbSecond": true,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": false,
+      "notes": "Typical Germanic SVO order; verb-second in main clauses."
+    },
+    "morphology": {
+      "typology": "analytic",
+      "inflection": false,
+      "conjugation": false,
+      "derivation": true,
+      "notes": "Mostly analytic; verbs do not conjugate for person, limited derivational morphology."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": null,
+      "cases": null,
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": null,
+      "auxiliaries": true,
+      "notes": "Tense and aspect marked periphrastically; auxiliaries used in compound tenses."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": false,
+      "politenessSystem": false,
+      "honorificLevels": null
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
+    "iso639p1": "aa",
+    "name": "Afar",
+    "family": {
+      "family": "Afro-Asiatic",
+      "subfamily": "Cushitic",
+      "branch": "Lowland East Cushitic",
+      "group": null,
+      "subgroup": null
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": false,
+      "reliesOnWordOrder": true,
+      "scrambling": false,
+      "nullArguments": false,
+      "notes": "Typical Cushitic SOV structure with moderate word-order flexibility."
+    },
+    "morphology": {
+      "typology": "agglutinative",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Verbs are inflected for tense, aspect, mood, and subject agreement."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": null,
+      "cases": ["nominative", "accusative", "genitive"],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": false,
+      "notes": "Verbs agree with subject in person and number; no auxiliary verbs."
+    },
+    "discourse": {
+      "topicProminent": false,
+      "proDrop": false,
+      "politenessSystem": false,
+      "honorificLevels": null
+    },
+    "phonology": {
+      "tonal": false,
+      "toneCount": 0,
+      "pitchAccent": false,
+      "stress": true
+    },
+    "writing": {
+      "scripts": ["Latin"],
+      "direction": ["LTR"],
+      "alphabetic": true,
+      "abugida": false,
+      "logographic": false
+    }
+  },
+  {
     "name": "Swahili",
     "iso639p1": "sw",
     "family": {

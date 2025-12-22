@@ -1,5 +1,70 @@
 [
   {
+  "iso639p1": "cr",
+  "name": "Cree",
+  "family": {
+    "family": "Algic",
+    "subfamily": "Algonquian",
+    "branch": null,
+    "group": null,
+    "subgroup": null
+  },
+  "syntax": {
+    "wordOrders": ["SVO", "VSO"],
+    "dominantOrder": "SVO",
+    "headDirection": "head-initial",
+    "flexibility": "high",
+    "verbSecond": false,
+    "subordinateClauseVerbPosition": "initial",
+    "topicProminent": true,
+    "reliesOnWordOrder": false,
+    "scrambling": true,
+    "nullArguments": true,
+    "notes": "Flexible word order; topic-prominent; verbs carry much of the grammatical information."
+  },
+  "morphology": {
+    "typology": "polysynthetic",
+    "inflection": true,
+    "conjugation": true,
+    "derivation": true,
+    "notes": "Polysynthetic; verbs incorporate subjects, objects, and other arguments."
+  },
+  "nominal": {
+    "grammaticalGender": false,
+    "genderTypes": null,
+    "cases": null,
+    "classifiers": false,
+    "classifierType": null
+  },
+  "verbal": {
+    "tense": true,
+    "aspect": true,
+    "mood": true,
+    "agreement": ["person", "number", "gender"],
+    "auxiliaries": false,
+    "notes": "Verbs encode tense, aspect, mood, and agreement; auxiliaries are generally not used."
+  },
+  "discourse": {
+    "topicProminent": true,
+    "proDrop": true,
+    "politenessSystem": false,
+    "honorificLevels": null
+  },
+  "phonology": {
+    "tonal": false,
+    "toneCount": 0,
+    "pitchAccent": false,
+    "stress": true
+  },
+  "writing": {
+    "scripts": ["Latin"],
+    "direction": ["LTR"],
+    "alphabetic": true,
+    "abugida": false,
+    "logographic": false
+  }
+},
+  {
     "name": "Quechua",
     "iso639p1": "qu",
     "family": {

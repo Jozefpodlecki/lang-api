@@ -1,6 +1,8 @@
 #![allow(dead_code)]
 
 use std::env;
+use std::net::SocketAddr;
+use axum_server::tls_rustls::RustlsConfig;
 use log::*;
 use tokio::net::TcpListener;
 use tokio::{signal};
@@ -59,13 +61,29 @@ async fn run() -> Result<()> {
     let state = AppState::new().await?;
     let router = setup_routing(state);    
 
-    let addr = option_env!("ADDR").unwrap_or_else(|| "0.0.0.0:3000");
-    let listener = TcpListener::bind(addr).await?;
+    let addr: SocketAddr = option_env!("ADDR").unwrap_or_else(|| "0.0.0.0:3000")
+        .parse()
+        .expect("invalid ADDR");;
+    // let listener = TcpListener::bind(addr).await?;
+    // let addr = SocketAddr::from(addr);
     debug!("Addr: {}", addr);
 
-    axum::serve(listener, router.into_make_service())
-        .with_graceful_shutdown(shutdown_signal())
-        .await?;
+    // let config = RustlsConfig::from_pem_file(
+    //     "cert.pem",
+    //     "key.pem",
+    // )
+    // .await
+    // .unwrap();
+
+    // axum::serve(listener, router.into_make_service())
+    //     .with_graceful_shutdown(shutdown_signal())
+    //     .await?;
+
+    // axum_server::tls_rustls::bind_rustls(addr, config)
+    axum_server::bind(addr)
+        .serve(router.into_make_service())
+        .await
+        .unwrap();
 
     Ok(())
 }

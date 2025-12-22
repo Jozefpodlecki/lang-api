@@ -13,6 +13,8 @@ pub async fn seed_data() -> Result<()> {
 
     let database = client.database("linguistics");
 
+    // TO-DO remove once its complete
+    debug!("dropping database linguistics");
     client.database("linguistics").drop().await?;
 
     let collections = database.list_collection_names().await?;
@@ -23,6 +25,7 @@ pub async fn seed_data() -> Result<()> {
     }
 
     seed_language_metadata(&client).await?;
+    seed_lexicons(&client).await?;
     seed_pronouns(&client).await?;
     seed_verbs(&client).await?;
 
@@ -35,6 +38,14 @@ pub fn load_json<T: DeserializeOwned>(path: impl AsRef<Path>) -> Result<T> {
     Ok(parsed)
 }
 
+pub async fn seed_lexicons(client: &Client) -> Result<()> {
+
+
+
+    
+    Ok(())
+}
+
 pub async fn seed_language_metadata(client: &Client) -> Result<()> {
     let features = FeaturesRepository::new(client);
 
@@ -44,7 +55,7 @@ pub async fn seed_language_metadata(client: &Client) -> Result<()> {
 
         debug!("loading {}", path.file_name().unwrap().display());
 
-        let documents: Vec<LanguageFeatures>  = load_json(&path)?;
+        let documents: Vec<LanguageProfile>  = load_json(&path)?;
 
         for document in documents {
             features.insert(document).await?;
@@ -58,6 +69,9 @@ pub async fn seed_language_metadata(client: &Client) -> Result<()> {
 
 pub async fn seed_verbs(client: &Client) -> Result<()> {
     let verbs = VerbsRepository::new(client);
+
+    // for entry in fs::read_dir("data/languages")? {
+    // }
 
     let documents: Vec<Verb> = load_json("data/en/verbs.json")?;
 

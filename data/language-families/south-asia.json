@@ -1,0 +1,200 @@
+[
+    {
+  "iso639p1": "hi",
+  "name": "Hindi",
+  "family": {
+    "family": "Indo-European",
+    "subfamily": "Indo-Iranian",
+    "branch": "Indo-Aryan",
+    "group": "Central Zone",
+    "subgroup": null
+  },
+  "syntax": {
+    "wordOrders": ["SOV"],
+    "dominantOrder": "SOV",
+    "headDirection": "head-final",
+    "flexibility": "moderate",
+    "verbSecond": false,
+    "subordinateClauseVerbPosition": "final",
+    "topicProminent": false,
+    "reliesOnWordOrder": false,
+    "scrambling": true,
+    "nullArguments": true,
+    "notes": "Standard SOV word order; allows null subjects; moderate flexibility due to postpositions and rich morphology."
+  },
+  "morphology": {
+    "typology": "fusional",
+    "inflection": true,
+    "conjugation": true,
+    "derivation": true,
+    "notes": "Rich fusional morphology; verbs conjugate for tense, aspect, mood, and honorifics; derivational morphology for nouns and verbs."
+  },
+  "nominal": {
+    "grammaticalGender": true,
+    "genderTypes": ["masculine", "feminine"],
+    "cases": ["nominative", "accusative", "genitive", "dative", "oblique"],
+    "classifiers": false,
+    "classifierType": null
+  },
+  "verbal": {
+    "tense": true,
+    "aspect": true,
+    "mood": true,
+    "agreement": ["person", "number", "gender"],
+    "auxiliaries": true,
+    "notes": "Verbs agree with subject in person, number, gender; auxiliary verbs used in compound tenses."
+  },
+  "discourse": {
+    "topicProminent": false,
+    "proDrop": true,
+    "politenessSystem": true,
+    "honorificLevels": ["informal", "polite", "formal", "highly formal"]
+  },
+  "phonology": {
+    "tonal": false,
+    "toneCount": 0,
+    "pitchAccent": false,
+    "stress": true
+  },
+  "writing": {
+    "scripts": ["Devanagari"],
+    "direction": ["LTR"],
+    "alphabetic": true,
+    "abugida": true,
+    "logographic": false
+  }
+}
+,
+     {
+  "iso639p1": "ta",
+  "name": "Tamil",
+  "family": {
+    "family": "Dravidian",
+    "subfamily": "Southern Dravidian",
+    "branch": "Tamil-Kannada",
+    "group": "Tamil-Malayalam",
+    "subgroup": null
+  },
+  "syntax": {
+    "wordOrders": ["SOV"],
+    "dominantOrder": "SOV",
+    "headDirection": "head-final",
+    "flexibility": "moderate",
+    "verbSecond": false,
+    "subordinateClauseVerbPosition": "final",
+    "topicProminent": false,
+    "reliesOnWordOrder": false,
+    "scrambling": true,
+    "nullArguments": true,
+    "notes": "Standard SOV order; allows null subjects; moderate flexibility in clause structure."
+  },
+  "morphology": {
+    "typology": "agglutinative",
+    "inflection": true,
+    "conjugation": true,
+    "derivation": true,
+    "notes": "Agglutinative morphology; verbs conjugate for tense, aspect, mood, and person; rich nominal derivation."
+  },
+  "nominal": {
+    "grammaticalGender": true,
+    "genderTypes": ["masculine", "feminine", "neuter"],
+    "cases": ["nominative", "accusative", "instrumental", "dative", "ablative", "genitive", "locative", "vocative"],
+    "classifiers": false,
+    "classifierType": null
+  },
+  "verbal": {
+    "tense": true,
+    "aspect": true,
+    "mood": true,
+    "agreement": ["person", "number", "gender"],
+    "auxiliaries": false,
+    "notes": "Verbs agree with subject in person, number, and gender; auxiliaries not typically used."
+  },
+  "discourse": {
+    "topicProminent": false,
+    "proDrop": true,
+    "politenessSystem": true,
+    "honorificLevels": ["informal", "polite", "formal"]
+  },
+  "phonology": {
+    "tonal": false,
+    "toneCount": 0,
+    "pitchAccent": false,
+    "stress": true
+  },
+  "writing": {
+    "scripts": ["Tamil"],
+    "direction": ["LTR"],
+    "alphabetic": true,
+    "abugida": true,
+    "logographic": false
+  }
+}
+,
+    {
+  "iso639p1": "ur",
+  "name": "Urdu",
+  "family": {
+    "family": "Indo-European",
+    "subfamily": "Indo-Iranian",
+    "branch": "Indo-Aryan",
+    "group": "Central Zone",
+    "subgroup": null
+  },
+  "syntax": {
+    "wordOrders": ["SOV"],
+    "dominantOrder": "SOV",
+    "headDirection": "head-final",
+    "flexibility": "moderate",
+    "verbSecond": false,
+    "subordinateClauseVerbPosition": "final",
+    "topicProminent": false,
+    "reliesOnWordOrder": false,
+    "scrambling": true,
+    "nullArguments": true,
+    "notes": "Standard SOV word order; allows null subjects; moderate flexibility due to postpositions and rich morphology."
+  },
+  "morphology": {
+    "typology": "fusional",
+    "inflection": true,
+    "conjugation": true,
+    "derivation": true,
+    "notes": "Rich fusional morphology; verbs conjugate for tense, aspect, mood, and honorifics; derivational morphology for nouns and verbs."
+  },
+  "nominal": {
+    "grammaticalGender": true,
+    "genderTypes": ["masculine", "feminine"],
+    "cases": ["nominative", "accusative", "genitive", "dative", "oblique"],
+    "classifiers": false,
+    "classifierType": null
+  },
+  "verbal": {
+    "tense": true,
+    "aspect": true,
+    "mood": true,
+    "agreement": ["person", "number", "gender"],
+    "auxiliaries": true,
+    "notes": "Verbs agree with subject in person, number, gender; auxiliary verbs used in compound tenses."
+  },
+  "discourse": {
+    "topicProminent": false,
+    "proDrop": true,
+    "politenessSystem": true,
+    "honorificLevels": ["informal", "polite", "formal", "highly formal"]
+  },
+  "phonology": {
+    "tonal": false,
+    "toneCount": 0,
+    "pitchAccent": false,
+    "stress": true
+  },
+  "writing": {
+    "scripts": ["Arabic (Nastaliq)"],
+    "direction": ["RTL"],
+    "alphabetic": true,
+    "abugida": false,
+    "logographic": false
+  }
+}
+
+]

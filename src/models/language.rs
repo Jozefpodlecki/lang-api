@@ -11,7 +11,7 @@ use utoipa::ToSchema;
 /// All subcomponents are optional to allow partial or evolving descriptions.
 #[derive(Debug, Serialize, Deserialize, ToSchema)]
 #[serde(rename_all = "camelCase")]
-pub struct LanguageFeatures {
+pub struct LanguageProfile {
     /// ISO 639-1 or ISO 639-3 language identifier (e.g. "en", "de", "zh")
     pub iso639p1: String,
     

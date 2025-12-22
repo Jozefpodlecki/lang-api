@@ -1,5 +1,275 @@
 [
   {
+  "iso639p1": "ug",
+  "name": "Uyghur",
+  "family": {
+    "family": "Turkic",
+    "subfamily": "Karluk",
+    "branch": null,
+    "group": null,
+    "subgroup": null
+  },
+  "syntax": {
+    "wordOrders": ["SOV"],
+    "dominantOrder": "SOV",
+    "headDirection": "head-final",
+    "flexibility": "moderate",
+    "verbSecond": false,
+    "subordinateClauseVerbPosition": "final",
+    "topicProminent": false,
+    "reliesOnWordOrder": true,
+    "scrambling": false,
+    "nullArguments": true,
+    "notes": "Standard Turkic SOV word order; allows null subjects."
+  },
+  "morphology": {
+    "typology": "agglutinative",
+    "inflection": true,
+    "conjugation": true,
+    "derivation": true,
+    "notes": "Agglutinative morphology; verbs and nouns marked with suffixes for tense, aspect, mood, and case."
+  },
+  "nominal": {
+    "grammaticalGender": false,
+    "genderTypes": null,
+    "cases": ["nominative", "accusative", "genitive", "dative", "locative", "ablative", "instrumental"],
+    "classifiers": false,
+    "classifierType": null
+  },
+  "verbal": {
+    "tense": true,
+    "aspect": true,
+    "mood": true,
+    "agreement": ["person", "number"],
+    "auxiliaries": false,
+    "notes": "Verbs mark tense, aspect, mood; agreement with subject in person and number; no auxiliaries."
+  },
+  "discourse": {
+    "topicProminent": false,
+    "proDrop": true,
+    "politenessSystem": false,
+    "honorificLevels": null
+  },
+  "phonology": {
+    "tonal": false,
+    "toneCount": 0,
+    "pitchAccent": false,
+    "stress": true
+  },
+  "writing": {
+    "scripts": ["Arabic", "Latin", "Cyrillic"],
+    "direction": ["RTL", "LTR"],
+    "alphabetic": true,
+    "abugida": false,
+    "logographic": false
+  }
+}
+,
+  {
+  "iso639p1": "tt",
+  "name": "Tatar",
+  "family": {
+    "family": "Turkic",
+    "subfamily": "Kipchak",
+    "branch": "Kipchak-Bulgar",
+    "group": null,
+    "subgroup": null
+  },
+  "syntax": {
+    "wordOrders": ["SOV"],
+    "dominantOrder": "SOV",
+    "headDirection": "head-final",
+    "flexibility": "moderate",
+    "verbSecond": false,
+    "subordinateClauseVerbPosition": "final",
+    "topicProminent": false,
+    "reliesOnWordOrder": true,
+    "scrambling": false,
+    "nullArguments": true,
+    "notes": "Standard Turkic SOV word order; allows null subjects in context."
+  },
+  "morphology": {
+    "typology": "agglutinative",
+    "inflection": true,
+    "conjugation": true,
+    "derivation": true,
+    "notes": "Agglutinative morphology with suffixes for tense, mood, and person; rich nominal derivation."
+  },
+  "nominal": {
+    "grammaticalGender": false,
+    "genderTypes": null,
+    "cases": ["nominative", "accusative", "genitive", "dative", "locative", "ablative", "instrumental"],
+    "classifiers": false,
+    "classifierType": null
+  },
+  "verbal": {
+    "tense": true,
+    "aspect": true,
+    "mood": true,
+    "agreement": ["person", "number"],
+    "auxiliaries": false,
+    "notes": "Verbs mark tense, aspect, mood, and agree with subject; auxiliaries not commonly used."
+  },
+  "discourse": {
+    "topicProminent": false,
+    "proDrop": true,
+    "politenessSystem": false,
+    "honorificLevels": null
+  },
+  "phonology": {
+    "tonal": false,
+    "toneCount": 0,
+    "pitchAccent": false,
+    "stress": true
+  },
+  "writing": {
+    "scripts": ["Cyrillic", "Latin"],
+    "direction": ["LTR"],
+    "alphabetic": true,
+    "abugida": false,
+    "logographic": false
+  }
+}
+,
+  {
+  "iso639p1": "cv",
+  "name": "Chuvash",
+  "family": {
+    "family": "Turkic",
+    "subfamily": "Oghur",
+    "branch": null,
+    "group": null,
+    "subgroup": null
+  },
+  "syntax": {
+    "wordOrders": ["SOV"],
+    "dominantOrder": "SOV",
+    "headDirection": "head-final",
+    "flexibility": "moderate",
+    "verbSecond": false,
+    "subordinateClauseVerbPosition": "final",
+    "topicProminent": false,
+    "reliesOnWordOrder": true,
+    "scrambling": false,
+    "nullArguments": false,
+    "notes": "Typical Turkic SOV order; moderate flexibility in subordinate clauses."
+  },
+  "morphology": {
+    "typology": "agglutinative",
+    "inflection": true,
+    "conjugation": true,
+    "derivation": true,
+    "notes": "Agglutinative morphology with extensive suffixes for tense, aspect, mood, and case."
+  },
+  "nominal": {
+    "grammaticalGender": false,
+    "genderTypes": null,
+    "cases": ["nominative", "accusative", "genitive", "dative", "locative", "ablative", "instrumental"],
+    "classifiers": false,
+    "classifierType": null
+  },
+  "verbal": {
+    "tense": true,
+    "aspect": true,
+    "mood": true,
+    "agreement": ["person", "number"],
+    "auxiliaries": false,
+    "notes": "Verbs mark tense, aspect, mood, and agree with subject in person and number; auxiliaries not common."
+  },
+  "discourse": {
+    "topicProminent": false,
+    "proDrop": true,
+    "politenessSystem": false,
+    "honorificLevels": null
+  },
+  "phonology": {
+    "tonal": false,
+    "toneCount": 0,
+    "pitchAccent": false,
+    "stress": true
+  },
+  "writing": {
+    "scripts": ["Cyrillic"],
+    "direction": ["LTR"],
+    "alphabetic": true,
+    "abugida": false,
+    "logographic": false
+  }
+}
+,
+  {
+    "iso639p1": "bo",
+    "name": "Tibetan",
+    "family": {
+      "family": "Sino-Tibetan",
+      "subfamily": "Tibeto-Burman",
+      "branch": "Bodish",
+      "group": null,
+      "subgroup": null
+    },
+    "syntax": {
+      "wordOrders": ["SOV"],
+      "dominantOrder": "SOV",
+      "headDirection": "head-final",
+      "flexibility": "moderate",
+      "verbSecond": false,
+      "subordinateClauseVerbPosition": "final",
+      "topicProminent": true,
+      "reliesOnWordOrder": true,
+      "scrambling": true,
+      "nullArguments": true,
+      "notes": "Tibetan typically follows SOV word order with some flexibility; topic-prominent and allows null arguments."
+    },
+    "morphology": {
+      "typology": "agglutinative",
+      "inflection": true,
+      "conjugation": true,
+      "derivation": true,
+      "notes": "Verbs are inflected for tense, aspect, mood; derivational morphology is productive."
+    },
+    "nominal": {
+      "grammaticalGender": false,
+      "genderTypes": null,
+      "cases": [
+        "nominative",
+        "accusative",
+        "genitive",
+        "dative",
+        "locative",
+        "instrumental"
+      ],
+      "classifiers": false,
+      "classifierType": null
+    },
+    "verbal": {
+      "tense": true,
+      "aspect": true,
+      "mood": true,
+      "agreement": ["person", "number"],
+      "auxiliaries": false,
+      "notes": "Verbs mark tense, aspect, and mood; agreement with person and number; auxiliaries not typically used."
+    },
+    "discourse": {
+      "topicProminent": true,
+      "proDrop": true,
+      "politenessSystem": true,
+      "honorificLevels": ["low", "medium", "high"]
+    },
+    "phonology": {
+      "tonal": true,
+      "toneCount": 2,
+      "pitchAccent": false,
+      "stress": false
+    },
+    "writing": {
+      "scripts": ["Tibetan"],
+      "direction": ["LTR"],
+      "alphabetic": false,
+      "abugida": true,
+      "logographic": false
+    }
+  },
+  {
     "name": "Kazakh",
     "iso639p1": "kk",
     "family": {
@@ -31,7 +301,15 @@
     "nominal": {
       "grammaticalGender": false,
       "genderTypes": [],
-      "cases": ["nominative", "accusative", "genitive", "dative", "locative", "ablative", "instrumental"],
+      "cases": [
+        "nominative",
+        "accusative",
+        "genitive",
+        "dative",
+        "locative",
+        "ablative",
+        "instrumental"
+      ],
       "classifiers": false,
       "classifierType": null
     },
@@ -94,7 +372,15 @@
     "nominal": {
       "grammaticalGender": false,
       "genderTypes": [],
-      "cases": ["nominative", "accusative", "genitive", "dative", "locative", "ablative", "instrumental"],
+      "cases": [
+        "nominative",
+        "accusative",
+        "genitive",
+        "dative",
+        "locative",
+        "ablative",
+        "instrumental"
+      ],
       "classifiers": false,
       "classifierType": null
     },
@@ -157,7 +443,15 @@
     "nominal": {
       "grammaticalGender": false,
       "genderTypes": [],
-      "cases": ["nominative", "accusative", "genitive", "dative", "locative", "ablative", "instrumental"],
+      "cases": [
+        "nominative",
+        "accusative",
+        "genitive",
+        "dative",
+        "locative",
+        "ablative",
+        "instrumental"
+      ],
       "classifiers": false,
       "classifierType": null
     },
@@ -221,7 +515,15 @@
     "nominal": {
       "grammaticalGender": false,
       "genderTypes": [],
-      "cases": ["nominative", "accusative", "genitive", "dative", "locative", "ablative", "instrumental"],
+      "cases": [
+        "nominative",
+        "accusative",
+        "genitive",
+        "dative",
+        "locative",
+        "ablative",
+        "instrumental"
+      ],
       "classifiers": false,
       "classifierType": null
     },
@@ -285,7 +587,15 @@
     "nominal": {
       "grammaticalGender": false,
       "genderTypes": [],
-      "cases": ["nominative", "accusative", "genitive", "dative", "locative", "ablative", "instrumental"],
+      "cases": [
+        "nominative",
+        "accusative",
+        "genitive",
+        "dative",
+        "locative",
+        "ablative",
+        "instrumental"
+      ],
       "classifiers": false,
       "classifierType": null
     },

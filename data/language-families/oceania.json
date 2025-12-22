@@ -1,5 +1,137 @@
 [
   {
+  "iso639p1": "ty",
+  "name": "Tahitian",
+  "family": {
+    "family": "Austronesian",
+    "subfamily": "Malayo-Polynesian",
+    "branch": "Oceanic",
+    "group": "Polynesian",
+    "subgroup": null
+  },
+  "syntax": {
+    "wordOrders": ["VSO", "SVO"],
+    "dominantOrder": "VSO",
+    "headDirection": "head-initial",
+    "flexibility": "high",
+    "verbSecond": false,
+    "subordinateClauseVerbPosition": "initial",
+    "topicProminent": true,
+    "reliesOnWordOrder": true,
+    "scrambling": true,
+    "nullArguments": true,
+    "notes": "Flexible word order; topic-prominent; allows dropping of subject pronouns."
+  },
+  "morphology": {
+    "typology": "analytic",
+    "inflection": false,
+    "conjugation": false,
+    "derivation": true,
+    "notes": "Mostly analytic; derivational morphology used to form nouns and verbs."
+  },
+  "nominal": {
+    "grammaticalGender": false,
+    "genderTypes": null,
+    "cases": null,
+    "classifiers": false,
+    "classifierType": null
+  },
+  "verbal": {
+    "tense": true,
+    "aspect": true,
+    "mood": true,
+    "agreement": null,
+    "auxiliaries": false,
+    "notes": "Tense, aspect, and mood are marked through particles and verb forms; no auxiliary verbs."
+  },
+  "discourse": {
+    "topicProminent": true,
+    "proDrop": true,
+    "politenessSystem": false,
+    "honorificLevels": null
+  },
+  "phonology": {
+    "tonal": false,
+    "toneCount": 0,
+    "pitchAccent": false,
+    "stress": true
+  },
+  "writing": {
+    "scripts": ["Latin"],
+    "direction": ["LTR"],
+    "alphabetic": true,
+    "abugida": false,
+    "logographic": false
+  }
+}
+,
+  {
+  "iso639p1": "ch",
+  "name": "Chamorro",
+  "family": {
+    "family": "Austronesian",
+    "subfamily": "Malayo-Polynesian",
+    "branch": "Oceanic",
+    "group": null,
+    "subgroup": null
+  },
+  "syntax": {
+    "wordOrders": ["VSO", "SVO"],
+    "dominantOrder": "VSO",
+    "headDirection": "head-initial",
+    "flexibility": "high",
+    "verbSecond": false,
+    "subordinateClauseVerbPosition": "initial",
+    "topicProminent": true,
+    "reliesOnWordOrder": true,
+    "scrambling": true,
+    "nullArguments": true,
+    "notes": "Flexible word order; topic-prominent; allows null subjects and objects."
+  },
+  "morphology": {
+    "typology": "agglutinative",
+    "inflection": true,
+    "conjugation": true,
+    "derivation": true,
+    "notes": "Uses affixation for verb conjugation, derivation, and nominal morphology."
+  },
+  "nominal": {
+    "grammaticalGender": false,
+    "genderTypes": null,
+    "cases": null,
+    "classifiers": false,
+    "classifierType": null
+  },
+  "verbal": {
+    "tense": true,
+    "aspect": true,
+    "mood": true,
+    "agreement": ["person", "number"],
+    "auxiliaries": true,
+    "notes": "Verbs mark tense, aspect, mood; auxiliary verbs used in some constructions."
+  },
+  "discourse": {
+    "topicProminent": true,
+    "proDrop": true,
+    "politenessSystem": false,
+    "honorificLevels": null
+  },
+  "phonology": {
+    "tonal": false,
+    "toneCount": 0,
+    "pitchAccent": false,
+    "stress": true
+  },
+  "writing": {
+    "scripts": ["Latin"],
+    "direction": ["LTR"],
+    "alphabetic": true,
+    "abugida": false,
+    "logographic": false
+  }
+}
+,
+  {
     "name": "Samoan",
     "iso639p1": "sm",
     "family": {
